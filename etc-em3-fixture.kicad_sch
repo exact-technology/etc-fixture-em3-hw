@@ -1,0 +1,441 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "157a64f5-4f62-4631-b01d-779d24d7ed20")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 16.51 18.415)
+		(size 30.48 41.529)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(color 255 255 194 1.0000)
+		)
+		(uuid "57e81bf3-031e-4254-af1a-96c6558b6d44")
+		(property "Sheetname" "HIGH LEVEL OVERVIEW"
+			(at 16.51 17.7034 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "HIGH LEVEL OVERVIEW.kicad_sch"
+			(at 16.51 60.5286 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "etc-em3-fixture"
+				(path "/157a64f5-4f62-4631-b01d-779d24d7ed20"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 68.199 19.177)
+		(size 33.02 48.26)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(color 255 255 194 1.0000)
+		)
+		(uuid "792edb8d-6e79-40ec-8a9f-e5a94d41d615")
+		(property "Sheetname" "POWER"
+			(at 68.199 18.4654 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "POWER.kicad_sch"
+			(at 68.199 68.0216 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "+48_RLY" input
+			(at 101.219 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "4e52b665-69d8-42a9-93a7-6ab69179b099")
+		)
+		(pin "TP98" input
+			(at 68.199 52.07 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "bcb8d88e-03b6-47d6-be35-0bf3d00040ef")
+		)
+		(pin "TP31" input
+			(at 68.199 44.45 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "ca04b94a-af35-4b88-8c9e-68c8d990ab64")
+		)
+		(pin "TP15" input
+			(at 68.199 36.83 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "c785082d-a4a5-4959-9659-9bb83fba418c")
+		)
+		(pin "TP14" input
+			(at 68.199 34.29 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "64cad7e5-cde8-4a56-ac3f-935ffb72111f")
+		)
+		(pin "TP13" input
+			(at 68.199 31.75 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "f8dfdd3b-2e27-45a8-a3cf-299eeaf74551")
+		)
+		(pin "RP_PWM1" input
+			(at 101.219 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "9fe64930-8615-4df0-bbf4-ebccda15d1bc")
+		)
+		(pin "RP_PWM2" input
+			(at 101.219 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "1c3c9d0f-9148-4a45-805e-372d2706783f")
+		)
+		(pin "3V3" input
+			(at 101.219 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "51be0000-ba20-4011-ad91-9f5b5454915a")
+		)
+		(pin "VAC(L)" input
+			(at 101.219 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "ddf451dc-36df-45fa-a78e-317229e4ab44")
+		)
+		(pin "VAC(N)" input
+			(at 101.219 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "7dbcb725-7565-472b-bda3-72f3199eba39")
+		)
+		(pin "VAC_RLY" input
+			(at 101.219 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "ffdb0b8a-2a79-4f4d-b083-cfc465e17646")
+		)
+		(pin "TP32" input
+			(at 68.199 46.99 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "0ef8e1cf-4c29-45c4-9229-a2a6f87df017")
+		)
+		(pin "TP33" input
+			(at 68.199 49.53 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "ced676b3-409e-4361-8507-a723e27a9f3e")
+		)
+		(pin "TP30" input
+			(at 68.199 41.91 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "d03609c6-60b3-46d9-96ce-5c99711637b3")
+		)
+		(pin "RPI_SCL1" input
+			(at 101.219 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "48742d2c-6c03-4ba2-9e1b-bddb878bab59")
+		)
+		(pin "TP25" input
+			(at 68.199 39.37 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "ea5e7130-f5c8-4a16-9040-9ec835cedee4")
+		)
+		(pin "RPI_SDA1" input
+			(at 101.219 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "d4d6d947-423f-4ece-ba06-e033b4494690")
+		)
+		(instances
+			(project "etc-em3-fixture"
+				(path "/157a64f5-4f62-4631-b01d-779d24d7ed20"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 15.875 116.84)
+		(size 81.28 53.34)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(color 255 255 194 1.0000)
+		)
+		(uuid "799e22f6-9b5e-43db-847c-48d7ef8dbb72")
+		(property "Sheetname" "FAN-TEC-HEATER"
+			(at 15.875 116.1284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "FAN-TEC-HEATER.kicad_sch"
+			(at 15.875 170.7646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "etc-em3-fixture"
+				(path "/157a64f5-4f62-4631-b01d-779d24d7ed20"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 136.398 20.828)
+		(size 39.37 45.085)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(color 255 255 194 1.0000)
+		)
+		(uuid "8e0fb8bc-2ab7-4572-b42c-8ab6fa0805e3")
+		(property "Sheetname" "Peripheral test"
+			(at 136.398 20.1164 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Page3.kicad_sch"
+			(at 136.398 66.4976 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "etc-em3-fixture"
+				(path "/157a64f5-4f62-4631-b01d-779d24d7ed20"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 246.38 13.97)
+		(size 28.194 149.098)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(color 255 255 194 1.0000)
+		)
+		(uuid "aab5eac7-fe46-46b5-8a73-0fb3a93406e0")
+		(property "Sheetname" "Connectors"
+			(at 246.38 13.2584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Connectors.kicad_sch"
+			(at 246.38 163.6526 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "etc-em3-fixture"
+				(path "/157a64f5-4f62-4631-b01d-779d24d7ed20"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 139.065 82.423)
+		(size 37.465 45.085)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(color 255 255 194 1.0000)
+		)
+		(uuid "b0d4a03a-f946-4c38-8a5a-bdd7f1ce4a16")
+		(property "Sheetname" "Probe Calibration"
+			(at 139.065 81.7114 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Page1.kicad_sch"
+			(at 139.065 128.0926 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Field2" ""
+			(at 139.065 82.423 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "etc-em3-fixture"
+				(path "/157a64f5-4f62-4631-b01d-779d24d7ed20"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
