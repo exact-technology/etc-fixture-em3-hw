@@ -669,310 +669,6 @@
 				)
 			)
 		)
-		(symbol "EXACT_IC:TMP1826"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at -1.27 1.27 0)
-				(effects
-					(font
-						(size 1.8288 1.8288)
-					)
-				)
-			)
-			(property "Value" "TMP1826NGRR"
-				(at -1.27 -3.81 0)
-				(effects
-					(font
-						(size 1.8288 1.8288)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "IC:8-WSON_(2.5x2.5)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "IC TEMP 3.7V 1-WIRE 0.3% SMD"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer Part Number" "TMP1826NGRR"
-				(at -1.27 -6.35 0)
-				(effects
-					(font
-						(size 1.8288 1.8288)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "Texas Instruments"
-				(at -1.27 -6.35 0)
-				(effects
-					(font
-						(size 1.8288 1.8288)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "EXACT Part Number" "1-00710"
-				(at -1.27 -6.35 0)
-				(effects
-					(font
-						(size 1.8288 1.8288)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Vendor" "TI"
-				(at -1.27 -6.35 0)
-				(effects
-					(font
-						(size 1.8288 1.8288)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Vendor Part Number" "TMP1826NGRR"
-				(at -1.27 -6.35 0)
-				(effects
-					(font
-						(size 1.8288 1.8288)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Package" "8-WSON (2.5x2.5)"
-				(at -1.27 -6.35 0)
-				(effects
-					(font
-						(size 1.8288 1.8288)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "ALTIUM_VALUE" "TMP1826NGRR"
-				(at -1.27 -6.35 0)
-				(effects
-					(font
-						(size 1.8288 1.8288)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "*8-WSON_(2.5x2.5)*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "TMP1826_1_0"
-				(rectangle
-					(start 15.24 10.16)
-					(end -5.08 -10.16)
-					(stroke
-						(width 0.0254)
-						(type solid)
-						(color 128 0 0 1)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at -10.16 7.62 0)
-					(length 5.08)
-					(name "VDD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -10.16 -7.62 0)
-					(length 5.08)
-					(name "SDQ"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 20.32 7.62 180)
-					(length 5.08)
-					(name "ADDR"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -10.16 2.54 0)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 20.32 -5.08 180)
-					(length 5.08)
-					(name "IO3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 20.32 2.54 180)
-					(length 5.08)
-					(name "IO0"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 20.32 0 180)
-					(length 5.08)
-					(name "IO1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 20.32 -2.54 180)
-					(length 5.08)
-					(name "IO2/~{ALERT}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -10.16 0 0)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "EXACT_RES:1-00015"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1916,195 +1612,6 @@
 				)
 			)
 		)
-		(symbol "EXACT_RES:1-01215"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at -10.16 0 0)
-				(effects
-					(font
-						(size 1.8288 1.8288)
-					)
-				)
-			)
-			(property "Value" "${VALUE}"
-				(at -3.81 0 0)
-				(effects
-					(font
-						(size 1.8288 1.8288)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "RES:RES_0603"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "RES 40.2K OHM 1% 1/10W 0603"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Vendor" "Digi-Key"
-				(at -10.668 0.762 0)
-				(effects
-					(font
-						(size 1.8288 1.8288)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Vendor Part Number" "311-40.2KHRCT-ND"
-				(at -10.668 0.762 0)
-				(effects
-					(font
-						(size 1.8288 1.8288)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "Yageo"
-				(at -10.668 0.762 0)
-				(effects
-					(font
-						(size 1.8288 1.8288)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer Part Number" "RC0603FR-0740K2L"
-				(at -10.668 0.762 0)
-				(effects
-					(font
-						(size 1.8288 1.8288)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "ALTIUM_VALUE" "40.2k"
-				(at -10.668 0.762 0)
-				(effects
-					(font
-						(size 1.8288 1.8288)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Tolerance" "1%"
-				(at -10.668 -3.302 0)
-				(effects
-					(font
-						(size 1.8288 1.8288)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "EXACT Part Number" "1-01215"
-				(at -10.668 -3.302 0)
-				(effects
-					(font
-						(size 1.8288 1.8288)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Package" "0603"
-				(at -10.668 -3.302 0)
-				(effects
-					(font
-						(size 1.8288 1.8288)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "*RES_0603*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "1-01215_1_0"
-				(polyline
-					(pts
-						(xy -2.54 0) (xy -1.524 0) (xy -1.27 0.508) (xy -0.762 -0.508) (xy -0.254 0.508) (xy 0.254 -0.508)
-						(xy 0.762 0.508) (xy 1.27 -0.508) (xy 1.524 0) (xy 2.54 0)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "EXACT_RES:1-01426"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2295,28 +1802,32 @@
 				)
 			)
 		)
-		(symbol "EXACT_RES:RC0603FR-072K2L"
+		(symbol "power:+3V3"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "R"
-				(at -10.16 0 0)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
 				(effects
 					(font
-						(size 1.8288 1.8288)
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+3V3"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "${VALUE}"
-				(at -3.81 0 0)
-				(effects
-					(font
-						(size 1.8288 1.8288)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "RES:RES_0603"
+			(property "Footprint" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -2334,7 +1845,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "RES SMD 2.2K OHM 1% 1/10W 0603"
+			(property "Description" "Power symbol creates a global label with name \"+3V3\""
 				(at 0 0 0)
 				(effects
 					(font
@@ -2343,87 +1854,7 @@
 					(hide yes)
 				)
 			)
-			(property "Vendor" "Digi-Key"
-				(at -10.668 0.762 0)
-				(effects
-					(font
-						(size 1.8288 1.8288)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Vendor Part Number" "311-2.20KHRCT-ND"
-				(at -10.668 0.762 0)
-				(effects
-					(font
-						(size 1.8288 1.8288)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "Yageo"
-				(at -10.668 0.762 0)
-				(effects
-					(font
-						(size 1.8288 1.8288)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer Part Number" "RC0603FR-072K2L"
-				(at -10.668 0.762 0)
-				(effects
-					(font
-						(size 1.8288 1.8288)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "ALTIUM_VALUE" "2.2k"
-				(at -10.668 0.762 0)
-				(effects
-					(font
-						(size 1.8288 1.8288)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Tolerance" "1%"
-				(at -10.668 -3.302 0)
-				(effects
-					(font
-						(size 1.8288 1.8288)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "EXACT Part Number" "1-00020"
-				(at -10.668 -3.302 0)
-				(effects
-					(font
-						(size 1.8288 1.8288)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Package" "0603"
-				(at -10.668 -3.302 0)
-				(effects
-					(font
-						(size 1.8288 1.8288)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "*RES_0603*"
+			(property "ki_keywords" "global power"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2432,241 +1863,59 @@
 					(hide yes)
 				)
 			)
-			(symbol "RC0603FR-072K2L_1_0"
+			(symbol "+3V3_0_1"
 				(polyline
 					(pts
-						(xy -2.54 0) (xy -1.524 0) (xy -1.27 0.508) (xy -0.762 -0.508) (xy -0.254 0.508) (xy 0.254 -0.508)
-						(xy 0.762 0.508) (xy 1.27 -0.508) (xy 1.524 0) (xy 2.54 0)
+						(xy -0.762 1.27) (xy 0 2.54)
 					)
 					(stroke
-						(width 0.254)
-						(type solid)
+						(width 0)
+						(type default)
 					)
 					(fill
 						(type none)
 					)
 				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+3V3_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
 						(effects
 							(font
-								(size 0 0)
+								(size 1.27 1.27)
 							)
 						)
 					)
 					(number "1"
 						(effects
 							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "EXACT_RES:RC0603FR-0747KL"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at -10.16 0 0)
-				(effects
-					(font
-						(size 1.8288 1.8288)
-					)
-				)
-			)
-			(property "Value" "${VALUE}"
-				(at -3.81 0 0)
-				(effects
-					(font
-						(size 1.8288 1.8288)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "RES:RES_0603"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "RES SMD 47K OHM 1% 1/10W 0603"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Vendor" "Digi-Key"
-				(at -10.668 0.762 0)
-				(effects
-					(font
-						(size 1.8288 1.8288)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Vendor Part Number" "311-47.0KHRCT-ND"
-				(at -10.668 0.762 0)
-				(effects
-					(font
-						(size 1.8288 1.8288)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "Yageo"
-				(at -10.668 0.762 0)
-				(effects
-					(font
-						(size 1.8288 1.8288)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer Part Number" "RC0603FR-0747KL"
-				(at -10.668 0.762 0)
-				(effects
-					(font
-						(size 1.8288 1.8288)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "ALTIUM_VALUE" "47k"
-				(at -10.668 0.762 0)
-				(effects
-					(font
-						(size 1.8288 1.8288)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Tolerance" "1%"
-				(at -10.668 -3.302 0)
-				(effects
-					(font
-						(size 1.8288 1.8288)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "EXACT Part Number" "1-00048"
-				(at -10.668 -3.302 0)
-				(effects
-					(font
-						(size 1.8288 1.8288)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Package" "0603"
-				(at -10.668 -3.302 0)
-				(effects
-					(font
-						(size 1.8288 1.8288)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "*RES_0603*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "RC0603FR-0747KL_1_0"
-				(polyline
-					(pts
-						(xy -2.54 0) (xy -1.524 0) (xy -1.27 0.508) (xy -0.762 -0.508) (xy -0.254 0.508) (xy 0.254 -0.508)
-						(xy 0.762 0.508) (xy 1.27 -0.508) (xy 1.524 0) (xy 2.54 0)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 0 0)
+								(size 1.27 1.27)
 							)
 						)
 					)
@@ -2769,312 +2018,84 @@
 				)
 			)
 		)
-		(symbol "power:VCC"
-			(power)
-			(pin_numbers hide)
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "VCC"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"VCC\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "VCC_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "VCC_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 	)
 	(junction
-		(at 74.93 66.04)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0450013b-055f-4db4-b9df-dcfa9283b578")
-	)
-	(junction
-		(at 143.51 55.88)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "36815369-c3c5-44a7-87c8-6744087bee5d")
-	)
-	(junction
-		(at 139.7 58.42)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "391cc925-b003-4924-bbcb-ae76f15a08c2")
-	)
-	(junction
-		(at 190.5 73.66)
+		(at 204.47 59.69)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6e3c4e58-206d-48c3-be65-19216e3467c1")
 	)
 	(junction
-		(at 135.89 60.96)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "75156396-8566-4fd4-94f4-e3ae991c408c")
-	)
-	(junction
-		(at 212.09 91.44)
+		(at 226.06 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7bd176c5-9824-4423-aba6-d75baeeb65b6")
 	)
 	(junction
-		(at 87.63 82.55)
+		(at 83.82 62.23)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "912e5376-03cd-42b3-a8bd-4c8f1ef07954")
 	)
 	(junction
-		(at 212.09 93.98)
+		(at 226.06 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b1e17e32-1478-41e2-8b1e-73f69f16d63b")
 	)
 	(junction
-		(at 139.7 45.72)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b294a2e3-c508-44d4-a78a-7bec430f69ba")
-	)
-	(junction
-		(at 212.09 86.36)
+		(at 226.06 72.39)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cb003395-0cef-4b6a-9d5f-d57597e296c7")
 	)
 	(junction
-		(at 83.82 58.42)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ccab3807-9925-4a36-9bec-d5748892e8a3")
-	)
-	(junction
-		(at 80.01 50.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cdfe6857-e81b-487e-9fb3-146918bdddf5")
-	)
-	(junction
-		(at 212.09 88.9)
+		(at 226.06 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f652a0a9-f643-4af6-92d6-ca73d255f655")
 	)
 	(junction
-		(at 212.09 96.52)
+		(at 226.06 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fd29eb6c-fc26-4e35-9413-b0704e47c70a")
 	)
-	(junction
-		(at 80.01 59.69)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fe894825-8c23-4fd1-a713-5c7e4be46e0d")
-	)
 	(no_connect
-		(at 87.63 107.95)
+		(at 83.82 87.63)
 		(uuid "0a0b63e0-d6b7-4ea2-b5d4-2c89b55e7973")
 	)
 	(no_connect
-		(at 87.63 90.17)
+		(at 83.82 69.85)
 		(uuid "1e557c59-8681-4461-a61d-3b32a35f9fd5")
 	)
 	(no_connect
-		(at 187.96 99.06)
+		(at 83.82 77.47)
+		(uuid "3c2646a8-d71d-402e-9516-9815a86b42e8")
+	)
+	(no_connect
+		(at 201.93 85.09)
 		(uuid "4c2dc6fc-0223-48c0-82bf-1518fe5b50f9")
 	)
 	(no_connect
-		(at 114.3 63.5)
-		(uuid "744c0bcd-e834-48e9-98fb-fd5b6474e129")
-	)
-	(no_connect
-		(at 157.48 93.98)
+		(at 171.45 80.01)
 		(uuid "7d657136-0922-4e54-a9ed-fd5cd48ee0e2")
 	)
 	(no_connect
-		(at 87.63 105.41)
+		(at 83.82 85.09)
 		(uuid "862f5f7a-aaed-4585-80ae-37a45491e095")
 	)
 	(no_connect
-		(at 187.96 101.6)
+		(at 201.93 87.63)
 		(uuid "e301a4ec-0ccb-4c27-8e84-a942efc3bb3d")
 	)
 	(no_connect
-		(at 118.11 100.33)
+		(at 114.3 80.01)
 		(uuid "fc2832f6-97df-4cf6-ae87-ac918a2d0a19")
 	)
 	(wire
 		(pts
-			(xy 74.93 60.96) (xy 74.93 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "023ccf7f-c1df-4441-93b6-14769fb24445")
-	)
-	(wire
-		(pts
-			(xy 114.3 55.88) (xy 143.51 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0288d428-d356-46da-bbbb-dacab6267bb6")
-	)
-	(wire
-		(pts
-			(xy 139.7 44.45) (xy 139.7 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "02ae15f8-6113-4339-9ce0-72093ab33145")
-	)
-	(wire
-		(pts
-			(xy 74.93 50.8) (xy 80.01 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "087e5e53-525e-4081-b303-f32f7ebc8376")
-	)
-	(wire
-		(pts
-			(xy 143.51 55.88) (xy 154.94 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "126ac252-fc27-45cb-849a-4b0c98063a89")
-	)
-	(wire
-		(pts
-			(xy 154.94 55.88) (xy 154.94 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1300973f-ea8c-4e61-b010-085fb0d6393e")
-	)
-	(wire
-		(pts
-			(xy 187.96 106.68) (xy 191.77 106.68)
+			(xy 201.93 92.71) (xy 205.74 92.71)
 		)
 		(stroke
 			(width 0)
@@ -3084,7 +2105,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 73.66) (xy 190.5 78.74)
+			(xy 204.47 59.69) (xy 204.47 64.77)
 		)
 		(stroke
 			(width 0)
@@ -3104,27 +2125,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 87.63) (xy 123.19 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "21d1b90f-37a5-408a-bb04-3ffec1aa2777")
-	)
-	(wire
-		(pts
-			(xy 151.13 81.28) (xy 157.48 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "22db9db7-90f9-4f40-b8ce-548846362431")
-	)
-	(wire
-		(pts
-			(xy 87.63 81.28) (xy 87.63 82.55)
+			(xy 83.82 60.96) (xy 83.82 62.23)
 		)
 		(stroke
 			(width 0)
@@ -3144,17 +2145,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 58.42) (xy 139.7 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2af9476a-20ce-4167-9afa-4c15508220ac")
-	)
-	(wire
-		(pts
-			(xy 76.2 95.25) (xy 87.63 95.25)
+			(xy 72.39 74.93) (xy 83.82 74.93)
 		)
 		(stroke
 			(width 0)
@@ -3164,7 +2155,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 78.74) (xy 190.5 78.74)
+			(xy 201.93 64.77) (xy 204.47 64.77)
 		)
 		(stroke
 			(width 0)
@@ -3174,7 +2165,7 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 73.66) (xy 190.5 73.66)
+			(xy 209.55 59.69) (xy 204.47 59.69)
 		)
 		(stroke
 			(width 0)
@@ -3184,7 +2175,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 93.98) (xy 212.09 93.98)
+			(xy 213.36 80.01) (xy 226.06 80.01)
 		)
 		(stroke
 			(width 0)
@@ -3194,7 +2185,7 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 106.68) (xy 191.77 114.3)
+			(xy 205.74 92.71) (xy 205.74 100.33)
 		)
 		(stroke
 			(width 0)
@@ -3204,27 +2195,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 45.72) (xy 139.7 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3b5f42e6-6fd0-4f99-9098-056428d6feee")
-	)
-	(wire
-		(pts
-			(xy 118.11 95.25) (xy 153.67 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3c43eb25-d252-406e-9523-bcda071108e3")
-	)
-	(wire
-		(pts
-			(xy 76.2 82.55) (xy 80.01 82.55)
+			(xy 72.39 62.23) (xy 76.2 62.23)
 		)
 		(stroke
 			(width 0)
@@ -3244,17 +2215,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 66.04) (xy 74.93 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "45650c0e-fd01-4076-95b6-6bc10ed02576")
-	)
-	(wire
-		(pts
-			(xy 87.63 113.03) (xy 87.63 120.65)
+			(xy 83.82 92.71) (xy 83.82 100.33)
 		)
 		(stroke
 			(width 0)
@@ -3264,7 +2225,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 96.52) (xy 189.23 96.52)
+			(xy 201.93 82.55) (xy 203.2 82.55)
 		)
 		(stroke
 			(width 0)
@@ -3274,17 +2235,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 58.42) (xy 151.13 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "630e6a42-00f0-4305-a6de-677c83bc550b")
-	)
-	(wire
-		(pts
-			(xy 199.39 88.9) (xy 212.09 88.9)
+			(xy 213.36 74.93) (xy 226.06 74.93)
 		)
 		(stroke
 			(width 0)
@@ -3294,7 +2245,17 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 88.9) (xy 189.23 88.9)
+			(xy 171.45 67.31) (xy 170.18 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67d9b9cf-9a69-45f5-adf7-7f2ce58567ed")
+	)
+	(wire
+		(pts
+			(xy 201.93 74.93) (xy 203.2 74.93)
 		)
 		(stroke
 			(width 0)
@@ -3304,17 +2265,17 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 60.96) (xy 148.59 60.96)
+			(xy 114.3 69.85) (xy 115.57 69.85)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "693dba3f-9cd4-4e31-b32c-4100b8d887dd")
+		(uuid "69b05535-1032-4f6d-b312-ece2cbb3f4bb")
 	)
 	(wire
 		(pts
-			(xy 212.09 96.52) (xy 212.09 99.06)
+			(xy 226.06 82.55) (xy 226.06 85.09)
 		)
 		(stroke
 			(width 0)
@@ -3324,7 +2285,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 92.71) (xy 87.63 92.71)
+			(xy 72.39 72.39) (xy 83.82 72.39)
 		)
 		(stroke
 			(width 0)
@@ -3334,33 +2295,13 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 106.68) (xy 154.94 114.3)
+			(xy 168.91 92.71) (xy 168.91 100.33)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "72e8d6a7-ae0f-434d-a8e4-441a3e279af7")
-	)
-	(wire
-		(pts
-			(xy 148.59 60.96) (xy 148.59 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7caa052c-a330-4dea-9336-28a18b0d3b7f")
-	)
-	(wire
-		(pts
-			(xy 74.93 66.04) (xy 83.82 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7f5ee610-576b-4383-b9cd-793bd9bfcd93")
 	)
 	(wire
 		(pts
@@ -3374,17 +2315,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 58.42) (xy 151.13 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "802a574d-1130-4c76-8c7f-c1aa039457af")
-	)
-	(wire
-		(pts
-			(xy 203.2 73.66) (xy 207.01 73.66)
+			(xy 217.17 59.69) (xy 220.98 59.69)
 		)
 		(stroke
 			(width 0)
@@ -3394,37 +2325,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 60.96) (xy 135.89 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8450744b-0290-4f77-a87e-1411ff7dd261")
-	)
-	(wire
-		(pts
-			(xy 80.01 59.69) (xy 83.82 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "89acff95-504c-4be8-8c28-e80e8388570c")
-	)
-	(wire
-		(pts
-			(xy 153.67 95.25) (xy 153.67 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "914d928a-4de1-49bc-9ad4-afe4002114eb")
-	)
-	(wire
-		(pts
-			(xy 118.11 113.03) (xy 118.11 120.65)
+			(xy 114.3 92.71) (xy 114.3 100.33)
 		)
 		(stroke
 			(width 0)
@@ -3434,7 +2335,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 102.87) (xy 87.63 102.87)
+			(xy 72.39 82.55) (xy 83.82 82.55)
 		)
 		(stroke
 			(width 0)
@@ -3444,7 +2345,7 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 83.82) (xy 212.09 86.36)
+			(xy 226.06 69.85) (xy 226.06 72.39)
 		)
 		(stroke
 			(width 0)
@@ -3454,7 +2355,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 106.68) (xy 154.94 106.68)
+			(xy 171.45 92.71) (xy 168.91 92.71)
 		)
 		(stroke
 			(width 0)
@@ -3464,7 +2365,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 83.82) (xy 212.09 83.82)
+			(xy 201.93 69.85) (xy 226.06 69.85)
 		)
 		(stroke
 			(width 0)
@@ -3474,7 +2375,7 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 91.44) (xy 212.09 93.98)
+			(xy 226.06 77.47) (xy 226.06 80.01)
 		)
 		(stroke
 			(width 0)
@@ -3484,27 +2385,17 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 55.88) (xy 83.82 58.42)
+			(xy 171.45 69.85) (xy 170.18 69.85)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a1c23396-020c-4910-8aec-48125e68a7eb")
+		(uuid "a030439b-2f29-4f1c-a6d9-bd464182e994")
 	)
 	(wire
 		(pts
-			(xy 80.01 50.8) (xy 80.01 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a227572c-89ab-4c00-9669-5228fa007e05")
-	)
-	(wire
-		(pts
-			(xy 199.39 96.52) (xy 212.09 96.52)
+			(xy 213.36 82.55) (xy 226.06 82.55)
 		)
 		(stroke
 			(width 0)
@@ -3514,17 +2405,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 85.09) (xy 123.19 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a82e32c1-feda-4333-abe3-0e26c586c9ab")
-	)
-	(wire
-		(pts
-			(xy 212.09 86.36) (xy 212.09 88.9)
+			(xy 226.06 72.39) (xy 226.06 74.93)
 		)
 		(stroke
 			(width 0)
@@ -3544,7 +2425,17 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 100.33) (xy 87.63 100.33)
+			(xy 114.3 64.77) (xy 115.57 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab4874b6-0da1-4507-aa92-120658c6eacd")
+	)
+	(wire
+		(pts
+			(xy 72.39 80.01) (xy 83.82 80.01)
 		)
 		(stroke
 			(width 0)
@@ -3554,7 +2445,17 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 91.44) (xy 189.23 91.44)
+			(xy 171.45 64.77) (xy 170.18 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac7da3a6-08ef-4802-84a3-82269ea93188")
+	)
+	(wire
+		(pts
+			(xy 201.93 77.47) (xy 203.2 77.47)
 		)
 		(stroke
 			(width 0)
@@ -3564,7 +2465,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 93.98) (xy 189.23 93.98)
+			(xy 201.93 80.01) (xy 203.2 80.01)
 		)
 		(stroke
 			(width 0)
@@ -3574,27 +2475,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 45.72) (xy 139.7 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b842e17b-2468-4984-89da-20e9da7d7158")
-	)
-	(wire
-		(pts
-			(xy 139.7 45.72) (xy 143.51 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b8e42c21-777c-4540-95b9-2af0c6062c05")
-	)
-	(wire
-		(pts
-			(xy 212.09 93.98) (xy 212.09 96.52)
+			(xy 226.06 80.01) (xy 226.06 82.55)
 		)
 		(stroke
 			(width 0)
@@ -3604,7 +2485,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 86.36) (xy 212.09 86.36)
+			(xy 213.36 72.39) (xy 226.06 72.39)
 		)
 		(stroke
 			(width 0)
@@ -3614,7 +2495,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 71.12) (xy 190.5 73.66)
+			(xy 204.47 57.15) (xy 204.47 59.69)
 		)
 		(stroke
 			(width 0)
@@ -3624,17 +2505,27 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 97.79) (xy 87.63 97.79)
+			(xy 114.3 67.31) (xy 115.57 67.31)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c1d6c017-a308-4feb-b4e4-d5d4c65306ea")
+		(uuid "bc7ff964-7bc9-4aaf-afc1-c86483e82290")
 	)
 	(wire
 		(pts
-			(xy 212.09 88.9) (xy 212.09 91.44)
+			(xy 114.3 74.93) (xy 171.45 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c314a2d1-2c25-4978-a7cf-bac2d9e01807")
+	)
+	(wire
+		(pts
+			(xy 226.06 74.93) (xy 226.06 77.47)
 		)
 		(stroke
 			(width 0)
@@ -3644,27 +2535,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 50.8) (xy 135.89 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d2284f53-a8db-4847-a37e-dbc6a5988b6f")
-	)
-	(wire
-		(pts
-			(xy 83.82 50.8) (xy 80.01 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d7b60126-0999-4aae-92e1-bb8af4f6c35f")
-	)
-	(wire
-		(pts
-			(xy 87.63 82.55) (xy 87.63 85.09)
+			(xy 83.82 62.23) (xy 83.82 64.77)
 		)
 		(stroke
 			(width 0)
@@ -3674,47 +2545,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 88.9) (xy 157.48 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d9973fc0-848a-4d22-a81c-53c1737e09ce")
-	)
-	(wire
-		(pts
-			(xy 83.82 59.69) (xy 83.82 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e0f2e687-0eda-4187-aeb2-666f6360a19b")
-	)
-	(wire
-		(pts
-			(xy 148.59 83.82) (xy 157.48 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e1b84eaa-91e1-4824-a171-058e05e48060")
-	)
-	(wire
-		(pts
-			(xy 80.01 48.26) (xy 80.01 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e6ec0355-180f-4be0-94da-8213f5e44297")
-	)
-	(wire
-		(pts
-			(xy 187.96 86.36) (xy 189.23 86.36)
+			(xy 201.93 72.39) (xy 203.2 72.39)
 		)
 		(stroke
 			(width 0)
@@ -3724,43 +2555,13 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 91.44) (xy 212.09 91.44)
+			(xy 213.36 77.47) (xy 226.06 77.47)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "f27b4cf6-e359-45ae-9062-5d51ddc0babf")
-	)
-	(wire
-		(pts
-			(xy 154.94 78.74) (xy 157.48 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f96cb061-5c03-4081-a42a-317a78213d8f")
-	)
-	(wire
-		(pts
-			(xy 80.01 59.69) (xy 80.01 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fb7497b8-5791-4cb3-8c44-1b84622a5ac5")
-	)
-	(wire
-		(pts
-			(xy 118.11 90.17) (xy 123.19 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ff4648a5-1850-4c8d-b03f-a7a5c5c1d9d3")
 	)
 	(rectangle
 		(start 48.895 34.798)
@@ -3821,7 +2622,7 @@
 	)
 	(text "TH2"
 		(exclude_from_sim no)
-		(at 67.056 103.378 0)
+		(at 63.246 83.058 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3833,7 +2634,7 @@
 	)
 	(text "25C\n"
 		(exclude_from_sim no)
-		(at 214.63 89.154 0)
+		(at 228.6 75.184 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3846,7 +2647,7 @@
 	)
 	(text "TH_OUTER\n"
 		(exclude_from_sim no)
-		(at 64.008 92.964 0)
+		(at 60.198 72.644 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3858,7 +2659,7 @@
 	)
 	(text "0.19C\n"
 		(exclude_from_sim no)
-		(at 215.392 86.614 0)
+		(at 229.362 72.644 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3871,7 +2672,7 @@
 	)
 	(text "TH_INNER\n"
 		(exclude_from_sim no)
-		(at 63.754 95.25 0)
+		(at 59.944 74.93 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3894,7 +2695,7 @@
 	)
 	(text "44.57C"
 		(exclude_from_sim no)
-		(at 216.154 91.694 0)
+		(at 230.124 77.724 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3907,7 +2708,7 @@
 	)
 	(text "TH1\n"
 		(exclude_from_sim no)
-		(at 66.802 100.584 0)
+		(at 62.992 80.264 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3919,7 +2720,7 @@
 	)
 	(text "70.42C"
 		(exclude_from_sim no)
-		(at 216.154 94.234 0)
+		(at 230.124 80.264 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3930,9 +2731,9 @@
 		)
 		(uuid "fd641bd6-4301-4640-a472-314d7a3f23fd")
 	)
-	(hierarchical_label "RP_ANALOG_SEL0"
+	(hierarchical_label "RP_ANALOG_PROBE_SEL0"
 		(shape input)
-		(at 123.19 85.09 0)
+		(at 115.57 64.77 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3943,9 +2744,9 @@
 		)
 		(uuid "0aea60ce-ae3b-4893-abc0-dea554675cf9")
 	)
-	(hierarchical_label "RP_1_WIRE"
+	(hierarchical_label "RP_ANALOG_RES_SEL1"
 		(shape input)
-		(at 69.85 66.04 180)
+		(at 170.18 67.31 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3954,11 +2755,11 @@
 			)
 			(justify right)
 		)
-		(uuid "3a6e43c9-e021-4d7b-958c-953c5b3f2029")
+		(uuid "20189b9c-2aa3-4ba2-a7c2-97ff32ec48f8")
 	)
 	(hierarchical_label "TP50"
 		(shape input)
-		(at 76.2 92.71 180)
+		(at 72.39 72.39 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3969,9 +2770,9 @@
 		)
 		(uuid "629ba883-e790-4cd4-a833-535816ce34ae")
 	)
-	(hierarchical_label "RP_ANALOG_SEL1"
+	(hierarchical_label "RP_ANALOG_PROBE_SEL1"
 		(shape input)
-		(at 123.19 87.63 0)
+		(at 115.57 67.31 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3982,9 +2783,9 @@
 		)
 		(uuid "649de3bc-f466-4c12-94f5-25b2d5fb45eb")
 	)
-	(hierarchical_label "RP_ANALOG_SEL2"
+	(hierarchical_label "RP_ANALOG_PROBE_SEL2"
 		(shape input)
-		(at 123.19 90.17 0)
+		(at 115.57 69.85 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3995,9 +2796,35 @@
 		)
 		(uuid "69002b3c-23a0-4acb-ad2d-d5971349140b")
 	)
+	(hierarchical_label "RP_ANALOG_RES_SEL2"
+		(shape input)
+		(at 170.18 69.85 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.1588)
+				(color 194 0 0 1)
+			)
+			(justify right)
+		)
+		(uuid "7036be96-64d2-4e21-abea-98583ff22399")
+	)
+	(hierarchical_label "RP_ANALOG_RES_SEL0"
+		(shape input)
+		(at 170.18 64.77 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.1588)
+				(color 194 0 0 1)
+			)
+			(justify right)
+		)
+		(uuid "70cfe118-c384-4fc4-af5c-4dcd246e69b6")
+	)
 	(hierarchical_label "TP54"
 		(shape input)
-		(at 76.2 102.87 180)
+		(at 72.39 82.55 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4010,7 +2837,7 @@
 	)
 	(hierarchical_label "TP55"
 		(shape input)
-		(at 76.2 95.25 180)
+		(at 72.39 74.93 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4023,7 +2850,7 @@
 	)
 	(hierarchical_label "TP53"
 		(shape input)
-		(at 76.2 100.33 180)
+		(at 72.39 80.01 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4034,22 +2861,9 @@
 		)
 		(uuid "afd5a47b-2545-4211-855c-e9dd1030d71b")
 	)
-	(hierarchical_label "TH_AMBIENT"
-		(shape input)
-		(at 76.2 97.79 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.1588)
-				(color 194 0 0 1)
-			)
-			(justify right)
-		)
-		(uuid "d0a31849-95d1-434a-94e3-a68685361c8b")
-	)
 	(symbol
 		(lib_id "power:GND")
-		(at 191.77 114.3 0)
+		(at 205.74 100.33 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4057,8 +2871,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "08bf96bf-1d9c-45a6-824d-2252ca66fcb7")
-		(property "Reference" "#PWR0511"
-			(at 191.77 120.65 0)
+		(property "Reference" "#PWR0509"
+			(at 205.74 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4067,7 +2881,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 191.77 119.38 0)
+			(at 205.74 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4075,7 +2889,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 191.77 114.3 0)
+			(at 205.74 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4084,7 +2898,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 191.77 114.3 0)
+			(at 205.74 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4093,7 +2907,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 191.77 114.3 0)
+			(at 205.74 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4107,7 +2921,7 @@
 		(instances
 			(project "etc-em3-fixture"
 				(path "/157a64f5-4f62-4631-b01d-779d24d7ed20/b0d4a03a-f946-4c38-8a5a-bdd7f1ce4a16"
-					(reference "#PWR0511")
+					(reference "#PWR0509")
 					(unit 1)
 				)
 			)
@@ -4115,15 +2929,15 @@
 	)
 	(symbol
 		(lib_id "EXACT_RES:1-01426")
-		(at 194.31 96.52 0)
+		(at 208.28 82.55 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "0a94cca2-9616-4ce4-b701-b59f951c9f18")
-		(property "Reference" "R510"
-			(at 191.77 95.758 0)
+		(property "Reference" "R506"
+			(at 205.74 81.788 0)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -4131,7 +2945,7 @@
 			)
 		)
 		(property "Value" "${VALUE}"
-			(at 190.5 96.52 0)
+			(at 204.47 82.55 0)
 			(effects
 				(font
 					(size 1.8288 1.8288)
@@ -4141,7 +2955,7 @@
 			)
 		)
 		(property "Footprint" "RES:RES_1206"
-			(at 194.31 96.52 0)
+			(at 208.28 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4150,7 +2964,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 194.31 96.52 0)
+			(at 208.28 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4159,7 +2973,7 @@
 			)
 		)
 		(property "Description" "RES SMD 270KOHM 0.05% 1/10W 0603"
-			(at 194.31 96.52 0)
+			(at 208.28 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4168,7 +2982,7 @@
 			)
 		)
 		(property "Vendor" "Digikey"
-			(at 183.642 95.758 0)
+			(at 197.612 81.788 0)
 			(effects
 				(font
 					(size 1.8288 1.8288)
@@ -4178,7 +2992,7 @@
 			)
 		)
 		(property "Vendor Part Number" "RG16N270KWTR-ND"
-			(at 183.642 95.758 0)
+			(at 197.612 81.788 0)
 			(effects
 				(font
 					(size 1.8288 1.8288)
@@ -4188,7 +3002,7 @@
 			)
 		)
 		(property "Manufacturer" "Susumu"
-			(at 183.642 95.758 0)
+			(at 197.612 81.788 0)
 			(effects
 				(font
 					(size 1.8288 1.8288)
@@ -4198,7 +3012,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "RG1608N-274-W-T1"
-			(at 183.642 95.758 0)
+			(at 197.612 81.788 0)
 			(effects
 				(font
 					(size 1.8288 1.8288)
@@ -4208,7 +3022,7 @@
 			)
 		)
 		(property "ALTIUM_VALUE" "270K"
-			(at 195.58 96.012 0)
+			(at 209.55 82.042 0)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -4217,7 +3031,7 @@
 			)
 		)
 		(property "Tolerance" "0.05%"
-			(at 200.66 96.266 0)
+			(at 214.63 82.296 0)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -4226,7 +3040,7 @@
 			)
 		)
 		(property "EXACT Part Number" "1-01426"
-			(at 183.642 99.822 0)
+			(at 197.612 85.852 0)
 			(effects
 				(font
 					(size 1.8288 1.8288)
@@ -4236,7 +3050,7 @@
 			)
 		)
 		(property "Package" "SMD"
-			(at 183.642 99.822 0)
+			(at 197.612 85.852 0)
 			(effects
 				(font
 					(size 1.8288 1.8288)
@@ -4254,7 +3068,7 @@
 		(instances
 			(project "etc-em3-fixture"
 				(path "/157a64f5-4f62-4631-b01d-779d24d7ed20/b0d4a03a-f946-4c38-8a5a-bdd7f1ce4a16"
-					(reference "R510")
+					(reference "R506")
 					(unit 1)
 				)
 			)
@@ -4269,7 +3083,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1982b36d-857d-473e-94e5-e9ad48b57dba")
-		(property "Reference" "R511"
+		(property "Reference" "R501"
 			(at 197.104 132.08 0)
 			(effects
 				(font
@@ -4402,7 +3216,73 @@
 		(instances
 			(project ""
 				(path "/157a64f5-4f62-4631-b01d-779d24d7ed20/b0d4a03a-f946-4c38-8a5a-bdd7f1ce4a16"
-					(reference "R511")
+					(reference "R501")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 204.47 57.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1f2c2471-2809-4c68-a732-77825245db7c")
+		(property "Reference" "#PWR0508"
+			(at 204.47 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 204.47 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 204.47 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 204.47 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 204.47 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5885d4f2-9f00-4a7f-8127-8672ac42d99e")
+		)
+		(instances
+			(project "etc-em3-fixture"
+				(path "/157a64f5-4f62-4631-b01d-779d24d7ed20/b0d4a03a-f946-4c38-8a5a-bdd7f1ce4a16"
+					(reference "#PWR0508")
 					(unit 1)
 				)
 			)
@@ -4418,7 +3298,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "22d52a3d-239a-4e88-9b69-a430a6c5e1d6")
-		(property "Reference" "#PWR0517"
+		(property "Reference" "#PWR0513"
 			(at 228.6 138.43 0)
 			(effects
 				(font
@@ -4468,7 +3348,7 @@
 		(instances
 			(project "etc-em3-fixture"
 				(path "/157a64f5-4f62-4631-b01d-779d24d7ed20/b0d4a03a-f946-4c38-8a5a-bdd7f1ce4a16"
-					(reference "#PWR0517")
+					(reference "#PWR0513")
 					(unit 1)
 				)
 			)
@@ -4476,7 +3356,7 @@
 	)
 	(symbol
 		(lib_id "EXACT_IC:1-01410")
-		(at 102.87 102.87 0)
+		(at 99.06 82.55 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4485,8 +3365,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2a8a2ca4-f184-4157-aca2-0b70e6eecc92")
-		(property "Reference" "U502"
-			(at 102.87 76.2 0)
+		(property "Reference" "U501"
+			(at 99.06 55.88 0)
 			(effects
 				(font
 					(size 1.8288 1.8288)
@@ -4494,7 +3374,7 @@
 			)
 		)
 		(property "Value" "XS3A4051PWJ"
-			(at 102.87 80.01 0)
+			(at 99.06 59.69 0)
 			(effects
 				(font
 					(size 1.8288 1.8288)
@@ -4502,7 +3382,7 @@
 			)
 		)
 		(property "Footprint" "IC:16-TSSOP"
-			(at 102.87 102.87 0)
+			(at 99.06 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4511,7 +3391,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 102.87 102.87 0)
+			(at 99.06 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4520,7 +3400,7 @@
 			)
 		)
 		(property "Description" "IC SWITCH SP8TX1 900MOHM 16TSSOP"
-			(at 102.87 102.87 0)
+			(at 99.06 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4529,7 +3409,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "XS3A4051PWJ"
-			(at 104.14 109.22 0)
+			(at 100.33 88.9 0)
 			(effects
 				(font
 					(size 1.8288 1.8288)
@@ -4539,7 +3419,7 @@
 			)
 		)
 		(property "Manufacturer" "Nexperia USA Inc."
-			(at 104.14 109.22 0)
+			(at 100.33 88.9 0)
 			(effects
 				(font
 					(size 1.8288 1.8288)
@@ -4549,7 +3429,7 @@
 			)
 		)
 		(property "EXACT Part Number" "1-01410"
-			(at 104.14 109.22 0)
+			(at 100.33 88.9 0)
 			(effects
 				(font
 					(size 1.8288 1.8288)
@@ -4559,7 +3439,7 @@
 			)
 		)
 		(property "Vendor" "Digi-key"
-			(at 104.14 109.22 0)
+			(at 100.33 88.9 0)
 			(effects
 				(font
 					(size 1.8288 1.8288)
@@ -4569,7 +3449,7 @@
 			)
 		)
 		(property "Vendor Part Number" "1727-XS3A4051PWJTR-ND"
-			(at 104.14 109.22 0)
+			(at 100.33 88.9 0)
 			(effects
 				(font
 					(size 1.8288 1.8288)
@@ -4579,7 +3459,7 @@
 			)
 		)
 		(property "Package" "16-TSSOP"
-			(at 104.14 109.22 0)
+			(at 100.33 88.9 0)
 			(effects
 				(font
 					(size 1.8288 1.8288)
@@ -4589,7 +3469,7 @@
 			)
 		)
 		(property "ALTIUM_VALUE" "*"
-			(at 104.14 109.22 0)
+			(at 100.33 88.9 0)
 			(effects
 				(font
 					(size 1.8288 1.8288)
@@ -4649,40 +3529,41 @@
 		(instances
 			(project "etc-em3-fixture"
 				(path "/157a64f5-4f62-4631-b01d-779d24d7ed20/b0d4a03a-f946-4c38-8a5a-bdd7f1ce4a16"
-					(reference "U502")
+					(reference "U501")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "EXACT_RES:1-01215")
-		(at 119.38 50.8 0)
+		(lib_id "power:+3V3")
+		(at 83.82 60.96 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "3d6d8f02-c227-497c-9bf9-aaadb5d9fa8e")
-		(property "Reference" "R502"
-			(at 118.11 52.832 0)
+		(fields_autoplaced yes)
+		(uuid "4c969f2a-2a2a-4120-ac3b-f1abdf244a73")
+		(property "Reference" "#PWR0502"
+			(at 83.82 64.77 0)
 			(effects
 				(font
-					(size 1.8288 1.8288)
-				)
-			)
-		)
-		(property "Value" "${VALUE}"
-			(at 119.38 46.99 0)
-			(effects
-				(font
-					(size 1.8288 1.8288)
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
 		)
-		(property "Footprint" "RES:RES_0603"
-			(at 119.38 50.8 0)
+		(property "Value" "+3V3"
+			(at 83.82 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 83.82 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4691,7 +3572,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 119.38 50.8 0)
+			(at 83.82 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4699,104 +3580,22 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES 40.2K OHM 1% 1/10W 0603"
-			(at 119.38 50.8 0)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 83.82 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Vendor" "Digi-Key"
-			(at 108.712 50.038 0)
-			(effects
-				(font
-					(size 1.8288 1.8288)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Vendor Part Number" "311-40.2KHRCT-ND"
-			(at 108.712 50.038 0)
-			(effects
-				(font
-					(size 1.8288 1.8288)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Yageo"
-			(at 108.712 50.038 0)
-			(effects
-				(font
-					(size 1.8288 1.8288)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" "RC0603FR-0740K2L"
-			(at 108.712 50.038 0)
-			(effects
-				(font
-					(size 1.8288 1.8288)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ALTIUM_VALUE" "40.2k"
-			(at 114.554 49.784 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Tolerance" "1%"
-			(at 108.712 54.102 0)
-			(effects
-				(font
-					(size 1.8288 1.8288)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "EXACT Part Number" "1-01215"
-			(at 108.712 54.102 0)
-			(effects
-				(font
-					(size 1.8288 1.8288)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "0603"
-			(at 108.712 54.102 0)
-			(effects
-				(font
-					(size 1.8288 1.8288)
-				)
-				(justify left bottom)
 				(hide yes)
 			)
 		)
 		(pin "1"
-			(uuid "032eb7ec-548b-4c66-b6d0-d6973975a92b")
-		)
-		(pin "2"
-			(uuid "773caf03-04b5-4f05-bc02-03b0e1ecc08d")
+			(uuid "4b176df5-8c92-496d-801e-371ae1c9cb1f")
 		)
 		(instances
-			(project "etc-em3-fixture"
+			(project ""
 				(path "/157a64f5-4f62-4631-b01d-779d24d7ed20/b0d4a03a-f946-4c38-8a5a-bdd7f1ce4a16"
-					(reference "R502")
+					(reference "#PWR0502")
 					(unit 1)
 				)
 			)
@@ -4804,15 +3603,15 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 154.94 114.3 0)
+		(at 168.91 100.33 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "4d2bbfe8-cc35-4375-9200-ba3bd7c4db6b")
-		(property "Reference" "#PWR0509"
-			(at 154.94 120.65 0)
+		(property "Reference" "#PWR0505"
+			(at 168.91 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4821,7 +3620,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 154.94 119.38 0)
+			(at 168.91 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4829,7 +3628,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 154.94 114.3 0)
+			(at 168.91 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4838,7 +3637,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 154.94 114.3 0)
+			(at 168.91 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4847,7 +3646,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 154.94 114.3 0)
+			(at 168.91 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4861,7 +3660,7 @@
 		(instances
 			(project "etc-em3-fixture"
 				(path "/157a64f5-4f62-4631-b01d-779d24d7ed20/b0d4a03a-f946-4c38-8a5a-bdd7f1ce4a16"
-					(reference "#PWR0509")
+					(reference "#PWR0505")
 					(unit 1)
 				)
 			)
@@ -4877,7 +3676,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "68898aaf-f02f-461b-9ff4-e2850db4cb95")
-		(property "Reference" "#PWR0512"
+		(property "Reference" "#PWR0506"
 			(at 191.77 138.43 0)
 			(effects
 				(font
@@ -4927,287 +3726,7 @@
 		(instances
 			(project "etc-em3-fixture"
 				(path "/157a64f5-4f62-4631-b01d-779d24d7ed20/b0d4a03a-f946-4c38-8a5a-bdd7f1ce4a16"
-					(reference "#PWR0512")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "EXACT_RES:RC0603FR-0747KL")
-		(at 135.89 55.88 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6ca5f79e-ad91-4494-a3e2-5fa7bccc13e5")
-		(property "Reference" "R503"
-			(at 144.018 53.086 90)
-			(effects
-				(font
-					(size 1.8288 1.8288)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "${VALUE}"
-			(at 132.08 55.88 0)
-			(effects
-				(font
-					(size 1.8288 1.8288)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "RES:RES_0603"
-			(at 135.89 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 135.89 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "RES SMD 47K OHM 1% 1/10W 0603"
-			(at 135.89 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor" "Digi-Key"
-			(at 135.128 66.548 0)
-			(effects
-				(font
-					(size 1.8288 1.8288)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Vendor Part Number" "311-47.0KHRCT-ND"
-			(at 135.128 66.548 0)
-			(effects
-				(font
-					(size 1.8288 1.8288)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Yageo"
-			(at 135.128 66.548 0)
-			(effects
-				(font
-					(size 1.8288 1.8288)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" "RC0603FR-0747KL"
-			(at 135.128 66.548 0)
-			(effects
-				(font
-					(size 1.8288 1.8288)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ALTIUM_VALUE" "47k"
-			(at 135.128 66.548 0)
-			(effects
-				(font
-					(size 1.8288 1.8288)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" "1%"
-			(at 139.192 66.548 0)
-			(effects
-				(font
-					(size 1.8288 1.8288)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "EXACT Part Number" "1-00048"
-			(at 139.192 66.548 0)
-			(effects
-				(font
-					(size 1.8288 1.8288)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "0603"
-			(at 139.192 66.548 0)
-			(effects
-				(font
-					(size 1.8288 1.8288)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "564350b3-eeec-418a-8106-7aa5b65937b8")
-		)
-		(pin "1"
-			(uuid "dc2b001b-d402-4c52-9cf8-997bbbea6795")
-		)
-		(instances
-			(project ""
-				(path "/157a64f5-4f62-4631-b01d-779d24d7ed20/b0d4a03a-f946-4c38-8a5a-bdd7f1ce4a16"
-					(reference "R503")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VCC")
-		(at 139.7 44.45 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "734b0969-e863-4734-8bfb-4aa61a013cfc")
-		(property "Reference" "#PWR0508"
-			(at 139.7 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCC"
-			(at 139.7 40.894 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 139.7 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 139.7 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 139.7 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4819910b-b3ee-4ae6-85cf-af5504c0825c")
-		)
-		(instances
-			(project "etc-em3-fixture"
-				(path "/157a64f5-4f62-4631-b01d-779d24d7ed20/b0d4a03a-f946-4c38-8a5a-bdd7f1ce4a16"
-					(reference "#PWR0508")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VCC")
-		(at 87.63 81.28 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "745c8a09-49a0-4102-840a-0aeb65239a69")
-		(property "Reference" "#PWR0504"
-			(at 87.63 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCC"
-			(at 87.63 77.724 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 87.63 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 87.63 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 87.63 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "138aab6d-c50c-4478-b5dd-fad061c316ae")
-		)
-		(instances
-			(project "etc-em3-fixture"
-				(path "/157a64f5-4f62-4631-b01d-779d24d7ed20/b0d4a03a-f946-4c38-8a5a-bdd7f1ce4a16"
-					(reference "#PWR0504")
+					(reference "#PWR0506")
 					(unit 1)
 				)
 			)
@@ -5215,15 +3734,15 @@
 	)
 	(symbol
 		(lib_id "EXACT_RES:1-00186")
-		(at 194.31 91.44 0)
+		(at 208.28 77.47 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "84960d92-7077-495c-9bbd-e8a4be5f3c12")
-		(property "Reference" "R508"
-			(at 191.77 90.678 0)
+		(property "Reference" "R504"
+			(at 205.74 76.708 0)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -5231,7 +3750,7 @@
 			)
 		)
 		(property "Value" "${VALUE}"
-			(at 197.5645 82.55 0)
+			(at 211.5345 68.58 0)
 			(effects
 				(font
 					(size 1.8288 1.8288)
@@ -5240,7 +3759,7 @@
 			)
 		)
 		(property "Footprint" "RES:RES_1206"
-			(at 194.31 91.44 0)
+			(at 208.28 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5249,7 +3768,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 194.31 91.44 0)
+			(at 208.28 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5258,7 +3777,7 @@
 			)
 		)
 		(property "Description" "RES SMD 4.99KOHM 0.05% 1/10W 0603"
-			(at 194.31 91.44 0)
+			(at 208.28 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5267,7 +3786,7 @@
 			)
 		)
 		(property "Vendor" "Digikey"
-			(at 183.642 90.678 0)
+			(at 197.612 76.708 0)
 			(effects
 				(font
 					(size 1.8288 1.8288)
@@ -5277,7 +3796,7 @@
 			)
 		)
 		(property "Vendor Part Number" "541-TNPU06034K99AWEN00TR-ND"
-			(at 183.642 90.678 0)
+			(at 197.612 76.708 0)
 			(effects
 				(font
 					(size 1.8288 1.8288)
@@ -5287,7 +3806,7 @@
 			)
 		)
 		(property "Manufacturer" "Vishay Dale"
-			(at 183.642 90.678 0)
+			(at 197.612 76.708 0)
 			(effects
 				(font
 					(size 1.8288 1.8288)
@@ -5297,7 +3816,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "TNPU06034K99AWEN00"
-			(at 183.642 90.678 0)
+			(at 197.612 76.708 0)
 			(effects
 				(font
 					(size 1.8288 1.8288)
@@ -5307,7 +3826,7 @@
 			)
 		)
 		(property "ALTIUM_VALUE" "4.99K"
-			(at 195.58 91.186 0)
+			(at 209.55 77.216 0)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -5316,7 +3835,7 @@
 			)
 		)
 		(property "EXACT Part Number" "1-00186"
-			(at 183.642 94.742 0)
+			(at 197.612 80.772 0)
 			(effects
 				(font
 					(size 1.8288 1.8288)
@@ -5326,7 +3845,7 @@
 			)
 		)
 		(property "Package" "SMD"
-			(at 183.642 94.742 0)
+			(at 197.612 80.772 0)
 			(effects
 				(font
 					(size 1.8288 1.8288)
@@ -5336,7 +3855,7 @@
 			)
 		)
 		(property "Tolerance" "0.05%"
-			(at 202.946 90.678 0)
+			(at 216.916 76.708 0)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -5352,296 +3871,7 @@
 		(instances
 			(project "etc-em3-fixture"
 				(path "/157a64f5-4f62-4631-b01d-779d24d7ed20/b0d4a03a-f946-4c38-8a5a-bdd7f1ce4a16"
-					(reference "R508")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 80.01 67.31 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8cab19d9-d93f-46f8-ad20-73f13d64c5d7")
-		(property "Reference" "#PWR0503"
-			(at 80.01 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 80.264 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 80.01 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 80.01 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 80.01 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fa65ee2a-be89-4867-a462-114a930309b1")
-		)
-		(instances
-			(project "etc-em3-fixture"
-				(path "/157a64f5-4f62-4631-b01d-779d24d7ed20/b0d4a03a-f946-4c38-8a5a-bdd7f1ce4a16"
-					(reference "#PWR0503")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "EXACT_IC:TMP1826")
-		(at 93.98 58.42 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9435b9ec-6d0c-46fb-b93b-70485ea8858a")
-		(property "Reference" "U501"
-			(at 99.06 41.91 0)
-			(effects
-				(font
-					(size 1.8288 1.8288)
-				)
-			)
-		)
-		(property "Value" "TMP1826NGRR"
-			(at 99.06 45.72 0)
-			(effects
-				(font
-					(size 1.8288 1.8288)
-				)
-			)
-		)
-		(property "Footprint" "IC:8-WSON_(2.5x2.5)"
-			(at 93.98 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 93.98 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "IC TEMP 3.7V 1-WIRE 0.3% SMD"
-			(at 93.98 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" "TMP1826NGRR"
-			(at 92.71 64.77 0)
-			(effects
-				(font
-					(size 1.8288 1.8288)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Texas Instruments"
-			(at 92.71 64.77 0)
-			(effects
-				(font
-					(size 1.8288 1.8288)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "EXACT Part Number" "1-00710"
-			(at 92.71 64.77 0)
-			(effects
-				(font
-					(size 1.8288 1.8288)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Vendor" "TI"
-			(at 92.71 64.77 0)
-			(effects
-				(font
-					(size 1.8288 1.8288)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Vendor Part Number" "TMP1826NGRR"
-			(at 92.71 64.77 0)
-			(effects
-				(font
-					(size 1.8288 1.8288)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "8-WSON (2.5x2.5)"
-			(at 92.71 64.77 0)
-			(effects
-				(font
-					(size 1.8288 1.8288)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ALTIUM_VALUE" "TMP1826NGRR"
-			(at 92.71 64.77 0)
-			(effects
-				(font
-					(size 1.8288 1.8288)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "9"
-			(uuid "889a323c-6bd4-4a53-9fc5-6e2033b2aa47")
-		)
-		(pin "2"
-			(uuid "85e473ff-496a-45a4-b961-cfb4b6808c7b")
-		)
-		(pin "3"
-			(uuid "8a6dc22a-7b2e-41fc-8e0c-c84893d58474")
-		)
-		(pin "5"
-			(uuid "2de11a27-8c44-45f9-b9a7-9a23639bd101")
-		)
-		(pin "1"
-			(uuid "16bdc908-9b56-45a6-9dd4-8d3a2ba9b9c3")
-		)
-		(pin "7"
-			(uuid "02e51e06-2d77-4289-bae5-eb36fb2b7df8")
-		)
-		(pin "4"
-			(uuid "2285dc4f-29d6-4bdd-9443-a5441b5e30dc")
-		)
-		(pin "8"
-			(uuid "4f2264e1-de5e-4a18-bf31-3d1ce31596e9")
-		)
-		(pin "6"
-			(uuid "d779568b-1118-4c83-bbca-c6e19c4e7c7c")
-		)
-		(instances
-			(project "etc-em3-fixture"
-				(path "/157a64f5-4f62-4631-b01d-779d24d7ed20/b0d4a03a-f946-4c38-8a5a-bdd7f1ce4a16"
-					(reference "U501")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VCC")
-		(at 190.5 71.12 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9586c771-652c-46c2-8f94-564cc65fa615")
-		(property "Reference" "#PWR0510"
-			(at 190.5 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCC"
-			(at 190.5 67.564 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 190.5 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 190.5 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 190.5 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ad0bae76-b25e-4834-85e2-15cc9ac048b0")
-		)
-		(instances
-			(project "etc-em3-fixture"
-				(path "/157a64f5-4f62-4631-b01d-779d24d7ed20/b0d4a03a-f946-4c38-8a5a-bdd7f1ce4a16"
-					(reference "#PWR0510")
+					(reference "R504")
 					(unit 1)
 				)
 			)
@@ -5649,7 +3879,7 @@
 	)
 	(symbol
 		(lib_id "EXACT_CAP:1-00004")
-		(at 83.82 82.55 0)
+		(at 80.01 62.23 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5657,8 +3887,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "99e0f4d9-541b-4e97-9ca5-66509438008a")
-		(property "Reference" "C502"
-			(at 79.248 81.026 0)
+		(property "Reference" "C501"
+			(at 75.438 60.706 0)
 			(effects
 				(font
 					(size 1.8288 1.8288)
@@ -5666,7 +3896,7 @@
 			)
 		)
 		(property "Value" "${VALUE}"
-			(at 83.82 77.47 0)
+			(at 80.01 57.15 0)
 			(show_name yes)
 			(effects
 				(font
@@ -5676,7 +3906,7 @@
 			)
 		)
 		(property "Footprint" "CAP:CAP_0603"
-			(at 83.82 82.55 0)
+			(at 80.01 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5685,7 +3915,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 83.82 82.55 0)
+			(at 80.01 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5694,7 +3924,7 @@
 			)
 		)
 		(property "Description" "CAP CER 0.1UF 50V X7R 0603"
-			(at 83.82 82.55 0)
+			(at 80.01 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5703,7 +3933,7 @@
 			)
 		)
 		(property "Vendor" "Digi-Key"
-			(at 85.09 91.44 0)
+			(at 81.28 71.12 0)
 			(effects
 				(font
 					(size 1.8288 1.8288)
@@ -5713,7 +3943,7 @@
 			)
 		)
 		(property "Vendor Part Number" "478-5778-1-ND"
-			(at 85.09 91.44 0)
+			(at 81.28 71.12 0)
 			(effects
 				(font
 					(size 1.8288 1.8288)
@@ -5723,7 +3953,7 @@
 			)
 		)
 		(property "Manufacturer" "AVX Corporation"
-			(at 85.09 91.44 0)
+			(at 81.28 71.12 0)
 			(effects
 				(font
 					(size 1.8288 1.8288)
@@ -5733,7 +3963,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "06035C104JAT2A"
-			(at 85.09 91.44 0)
+			(at 81.28 71.12 0)
 			(effects
 				(font
 					(size 1.8288 1.8288)
@@ -5743,7 +3973,7 @@
 			)
 		)
 		(property "ALTIUM_VALUE" "0.1uF"
-			(at 83.058 84.836 0)
+			(at 79.248 64.516 0)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -5752,7 +3982,7 @@
 			)
 		)
 		(property "EXACT Part Number" "1-00004"
-			(at 88.138 87.376 0)
+			(at 84.328 67.056 0)
 			(effects
 				(font
 					(size 1.8288 1.8288)
@@ -5762,7 +3992,7 @@
 			)
 		)
 		(property "Package" "0603"
-			(at 88.138 87.376 0)
+			(at 84.328 67.056 0)
 			(effects
 				(font
 					(size 1.8288 1.8288)
@@ -5772,7 +4002,7 @@
 			)
 		)
 		(property "Voltage" "50V"
-			(at 90.17 87.63 0)
+			(at 86.36 67.31 0)
 			(effects
 				(font
 					(size 1.8288 1.8288)
@@ -5782,7 +4012,7 @@
 			)
 		)
 		(property "Dielectric" "X7R"
-			(at 88.9 87.63 0)
+			(at 85.09 67.31 0)
 			(effects
 				(font
 					(size 1.8288 1.8288)
@@ -5800,7 +4030,7 @@
 		(instances
 			(project "etc-em3-fixture"
 				(path "/157a64f5-4f62-4631-b01d-779d24d7ed20/b0d4a03a-f946-4c38-8a5a-bdd7f1ce4a16"
-					(reference "C502")
+					(reference "C501")
 					(unit 1)
 				)
 			)
@@ -5808,15 +4038,15 @@
 	)
 	(symbol
 		(lib_id "EXACT_RES:1-01146")
-		(at 194.31 88.9 0)
+		(at 208.28 74.93 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "a6cf42f0-0cb9-4753-887e-9a9b2e10ae4b")
-		(property "Reference" "R507"
-			(at 191.77 88.138 0)
+		(property "Reference" "R503"
+			(at 205.74 74.168 0)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -5824,7 +4054,7 @@
 			)
 		)
 		(property "Value" "${VALUE}"
-			(at 197.5645 80.01 0)
+			(at 211.5345 66.04 0)
 			(effects
 				(font
 					(size 1.8288 1.8288)
@@ -5833,7 +4063,7 @@
 			)
 		)
 		(property "Footprint" "RES:RES_1206"
-			(at 194.31 88.9 0)
+			(at 208.28 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5842,7 +4072,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 194.31 88.9 0)
+			(at 208.28 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5851,7 +4081,7 @@
 			)
 		)
 		(property "Description" "RES SMD 10K OHM 0.05% 1/10W 0603"
-			(at 194.31 88.9 0)
+			(at 208.28 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5860,7 +4090,7 @@
 			)
 		)
 		(property "Vendor" "Digikey"
-			(at 183.642 88.138 0)
+			(at 197.612 74.168 0)
 			(effects
 				(font
 					(size 1.8288 1.8288)
@@ -5870,7 +4100,7 @@
 			)
 		)
 		(property "Vendor Part Number" "ERA-3ARW103V"
-			(at 183.642 88.138 0)
+			(at 197.612 74.168 0)
 			(effects
 				(font
 					(size 1.8288 1.8288)
@@ -5880,7 +4110,7 @@
 			)
 		)
 		(property "Manufacturer" "Panasonic Electronic Components"
-			(at 183.642 88.138 0)
+			(at 197.612 74.168 0)
 			(effects
 				(font
 					(size 1.8288 1.8288)
@@ -5890,7 +4120,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "P10KBETR-ND"
-			(at 183.642 88.138 0)
+			(at 197.612 74.168 0)
 			(effects
 				(font
 					(size 1.8288 1.8288)
@@ -5900,7 +4130,7 @@
 			)
 		)
 		(property "ALTIUM_VALUE" "10K"
-			(at 195.834 88.392 0)
+			(at 209.804 74.422 0)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -5909,7 +4139,7 @@
 			)
 		)
 		(property "EXACT Part Number" "1-01146"
-			(at 183.642 92.202 0)
+			(at 197.612 78.232 0)
 			(effects
 				(font
 					(size 1.8288 1.8288)
@@ -5919,7 +4149,7 @@
 			)
 		)
 		(property "Package" "SMD"
-			(at 183.642 92.202 0)
+			(at 197.612 78.232 0)
 			(effects
 				(font
 					(size 1.8288 1.8288)
@@ -5929,7 +4159,7 @@
 			)
 		)
 		(property "Tolerance" "0.05%"
-			(at 202.946 88.138 0)
+			(at 216.916 74.168 0)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -5945,7 +4175,7 @@
 		(instances
 			(project "etc-em3-fixture"
 				(path "/157a64f5-4f62-4631-b01d-779d24d7ed20/b0d4a03a-f946-4c38-8a5a-bdd7f1ce4a16"
-					(reference "R507")
+					(reference "R503")
 					(unit 1)
 				)
 			)
@@ -5953,15 +4183,15 @@
 	)
 	(symbol
 		(lib_id "EXACT_RES:1-00187")
-		(at 194.31 93.98 0)
+		(at 208.28 80.01 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "af7f9554-5e71-4ae9-83bd-5ee8811230f6")
-		(property "Reference" "R509"
-			(at 191.77 93.218 0)
+		(property "Reference" "R505"
+			(at 205.74 79.248 0)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -5969,7 +4199,7 @@
 			)
 		)
 		(property "Value" "${VALUE}"
-			(at 197.5645 85.09 0)
+			(at 211.5345 71.12 0)
 			(effects
 				(font
 					(size 1.8288 1.8288)
@@ -5978,7 +4208,7 @@
 			)
 		)
 		(property "Footprint" "RES:RES_1206"
-			(at 194.31 93.98 0)
+			(at 208.28 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5987,7 +4217,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 194.31 93.98 0)
+			(at 208.28 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5996,7 +4226,7 @@
 			)
 		)
 		(property "Description" "RES SMD 2.2KOHM 0.05% 1/10W 0603"
-			(at 194.31 93.98 0)
+			(at 208.28 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6005,7 +4235,7 @@
 			)
 		)
 		(property "Vendor" "Digikey"
-			(at 183.642 93.218 0)
+			(at 197.612 79.248 0)
 			(effects
 				(font
 					(size 1.8288 1.8288)
@@ -6015,7 +4245,7 @@
 			)
 		)
 		(property "Vendor Part Number" "P2.2KBETR-ND"
-			(at 183.642 93.218 0)
+			(at 197.612 79.248 0)
 			(effects
 				(font
 					(size 1.8288 1.8288)
@@ -6025,7 +4255,7 @@
 			)
 		)
 		(property "Manufacturer" "Panasonic Electronic Components"
-			(at 183.642 93.218 0)
+			(at 197.612 79.248 0)
 			(effects
 				(font
 					(size 1.8288 1.8288)
@@ -6035,7 +4265,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "ERA-3ARW222V"
-			(at 183.642 93.218 0)
+			(at 197.612 79.248 0)
 			(effects
 				(font
 					(size 1.8288 1.8288)
@@ -6045,7 +4275,7 @@
 			)
 		)
 		(property "ALTIUM_VALUE" "2.2K"
-			(at 195.58 93.726 0)
+			(at 209.55 79.756 0)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -6054,7 +4284,7 @@
 			)
 		)
 		(property "EXACT Part Number" "1-00187"
-			(at 183.642 97.282 0)
+			(at 197.612 83.312 0)
 			(effects
 				(font
 					(size 1.8288 1.8288)
@@ -6064,7 +4294,7 @@
 			)
 		)
 		(property "Package" "SMD"
-			(at 183.642 97.282 0)
+			(at 197.612 83.312 0)
 			(effects
 				(font
 					(size 1.8288 1.8288)
@@ -6074,7 +4304,7 @@
 			)
 		)
 		(property "Tolerance" "0.05%"
-			(at 202.946 93.218 0)
+			(at 216.916 79.248 0)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -6090,165 +4320,7 @@
 		(instances
 			(project "etc-em3-fixture"
 				(path "/157a64f5-4f62-4631-b01d-779d24d7ed20/b0d4a03a-f946-4c38-8a5a-bdd7f1ce4a16"
-					(reference "R509")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "EXACT_CAP:1-00004")
-		(at 80.01 55.88 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b053612a-e5ab-4c20-bf1b-1d372d8c6d96")
-		(property "Reference" "C501"
-			(at 81.534 53.594 90)
-			(effects
-				(font
-					(size 1.8288 1.8288)
-				)
-			)
-		)
-		(property "Value" "${VALUE}"
-			(at 85.09 55.88 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.8288 1.8288)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "CAP:CAP_0603"
-			(at 80.01 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 80.01 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CAP CER 0.1UF 50V X7R 0603"
-			(at 80.01 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor" "Digi-Key"
-			(at 71.12 54.61 0)
-			(effects
-				(font
-					(size 1.8288 1.8288)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Vendor Part Number" "478-5778-1-ND"
-			(at 71.12 54.61 0)
-			(effects
-				(font
-					(size 1.8288 1.8288)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "AVX Corporation"
-			(at 71.12 54.61 0)
-			(effects
-				(font
-					(size 1.8288 1.8288)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" "06035C104JAT2A"
-			(at 71.12 54.61 0)
-			(effects
-				(font
-					(size 1.8288 1.8288)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ALTIUM_VALUE" "0.1uF"
-			(at 75.692 58.928 90)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "EXACT Part Number" "1-00004"
-			(at 75.184 51.562 0)
-			(effects
-				(font
-					(size 1.8288 1.8288)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "0603"
-			(at 75.184 51.562 0)
-			(effects
-				(font
-					(size 1.8288 1.8288)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Voltage" "50V"
-			(at 74.93 49.53 0)
-			(effects
-				(font
-					(size 1.8288 1.8288)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Dielectric" "X7R"
-			(at 74.93 50.8 0)
-			(effects
-				(font
-					(size 1.8288 1.8288)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "4f2d66cc-fda6-4a22-904d-54d3f7828436")
-		)
-		(pin "1"
-			(uuid "fc4c10a6-e83a-434e-8a95-36017456c978")
-		)
-		(instances
-			(project "etc-em3-fixture"
-				(path "/157a64f5-4f62-4631-b01d-779d24d7ed20/b0d4a03a-f946-4c38-8a5a-bdd7f1ce4a16"
-					(reference "C501")
+					(reference "R505")
 					(unit 1)
 				)
 			)
@@ -6256,7 +4328,7 @@
 	)
 	(symbol
 		(lib_id "EXACT_IC:1-01410")
-		(at 172.72 96.52 0)
+		(at 186.69 82.55 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6264,8 +4336,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b20839a3-5500-444d-a687-f7bef93d769b")
-		(property "Reference" "U503"
-			(at 172.72 69.85 0)
+		(property "Reference" "U502"
+			(at 186.69 55.88 0)
 			(effects
 				(font
 					(size 1.8288 1.8288)
@@ -6273,7 +4345,7 @@
 			)
 		)
 		(property "Value" "XS3A4051PWJ"
-			(at 172.72 73.66 0)
+			(at 186.69 59.69 0)
 			(effects
 				(font
 					(size 1.8288 1.8288)
@@ -6281,7 +4353,7 @@
 			)
 		)
 		(property "Footprint" "IC:16-TSSOP"
-			(at 172.72 96.52 0)
+			(at 186.69 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6290,7 +4362,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 172.72 96.52 0)
+			(at 186.69 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6299,7 +4371,7 @@
 			)
 		)
 		(property "Description" "IC SWITCH SP8TX1 900MOHM 16TSSOP"
-			(at 172.72 96.52 0)
+			(at 186.69 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6308,7 +4380,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "XS3A4051PWJ"
-			(at 171.45 102.87 0)
+			(at 185.42 88.9 0)
 			(effects
 				(font
 					(size 1.8288 1.8288)
@@ -6318,7 +4390,7 @@
 			)
 		)
 		(property "Manufacturer" "Nexperia USA Inc."
-			(at 171.45 102.87 0)
+			(at 185.42 88.9 0)
 			(effects
 				(font
 					(size 1.8288 1.8288)
@@ -6328,7 +4400,7 @@
 			)
 		)
 		(property "EXACT Part Number" "1-01410"
-			(at 171.45 102.87 0)
+			(at 185.42 88.9 0)
 			(effects
 				(font
 					(size 1.8288 1.8288)
@@ -6338,7 +4410,7 @@
 			)
 		)
 		(property "Vendor" "Digi-key"
-			(at 171.45 102.87 0)
+			(at 185.42 88.9 0)
 			(effects
 				(font
 					(size 1.8288 1.8288)
@@ -6348,7 +4420,7 @@
 			)
 		)
 		(property "Vendor Part Number" "1727-XS3A4051PWJTR-ND"
-			(at 171.45 102.87 0)
+			(at 185.42 88.9 0)
 			(effects
 				(font
 					(size 1.8288 1.8288)
@@ -6358,7 +4430,7 @@
 			)
 		)
 		(property "Package" "16-TSSOP"
-			(at 171.45 102.87 0)
+			(at 185.42 88.9 0)
 			(effects
 				(font
 					(size 1.8288 1.8288)
@@ -6368,7 +4440,7 @@
 			)
 		)
 		(property "ALTIUM_VALUE" "*"
-			(at 171.45 102.87 0)
+			(at 185.42 88.9 0)
 			(effects
 				(font
 					(size 1.8288 1.8288)
@@ -6428,7 +4500,7 @@
 		(instances
 			(project "etc-em3-fixture"
 				(path "/157a64f5-4f62-4631-b01d-779d24d7ed20/b0d4a03a-f946-4c38-8a5a-bdd7f1ce4a16"
-					(reference "U503")
+					(reference "U502")
 					(unit 1)
 				)
 			)
@@ -6436,7 +4508,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 207.01 73.66 0)
+		(at 220.98 59.69 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6444,8 +4516,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bc156929-0b19-4c71-adfc-cd4fa54ef91c")
-		(property "Reference" "#PWR0514"
-			(at 207.01 80.01 0)
+		(property "Reference" "#PWR0511"
+			(at 220.98 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6454,7 +4526,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 207.01 78.74 0)
+			(at 220.98 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6462,7 +4534,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 207.01 73.66 0)
+			(at 220.98 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6471,7 +4543,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 207.01 73.66 0)
+			(at 220.98 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6480,7 +4552,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 207.01 73.66 0)
+			(at 220.98 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6494,7 +4566,7 @@
 		(instances
 			(project "etc-em3-fixture"
 				(path "/157a64f5-4f62-4631-b01d-779d24d7ed20/b0d4a03a-f946-4c38-8a5a-bdd7f1ce4a16"
-					(reference "#PWR0514")
+					(reference "#PWR0511")
 					(unit 1)
 				)
 			)
@@ -6502,15 +4574,15 @@
 	)
 	(symbol
 		(lib_id "EXACT_CAP:1-00004")
-		(at 199.39 73.66 0)
+		(at 213.36 59.69 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "bdce55dd-e95f-429f-9962-8eb802fb3fb6")
-		(property "Reference" "C503"
-			(at 198.882 70.104 0)
+		(property "Reference" "C502"
+			(at 212.852 56.134 0)
 			(effects
 				(font
 					(size 1.8288 1.8288)
@@ -6518,7 +4590,7 @@
 			)
 		)
 		(property "Value" "${VALUE}"
-			(at 199.39 68.58 0)
+			(at 213.36 54.61 0)
 			(show_name yes)
 			(effects
 				(font
@@ -6528,7 +4600,7 @@
 			)
 		)
 		(property "Footprint" "CAP:CAP_0603"
-			(at 199.39 73.66 0)
+			(at 213.36 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6537,7 +4609,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 199.39 73.66 0)
+			(at 213.36 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6546,7 +4618,7 @@
 			)
 		)
 		(property "Description" "CAP CER 0.1UF 50V X7R 0603"
-			(at 199.39 73.66 0)
+			(at 213.36 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6555,7 +4627,7 @@
 			)
 		)
 		(property "Vendor" "Digi-Key"
-			(at 198.12 82.55 0)
+			(at 212.09 68.58 0)
 			(effects
 				(font
 					(size 1.8288 1.8288)
@@ -6565,7 +4637,7 @@
 			)
 		)
 		(property "Vendor Part Number" "478-5778-1-ND"
-			(at 198.12 82.55 0)
+			(at 212.09 68.58 0)
 			(effects
 				(font
 					(size 1.8288 1.8288)
@@ -6575,7 +4647,7 @@
 			)
 		)
 		(property "Manufacturer" "AVX Corporation"
-			(at 198.12 82.55 0)
+			(at 212.09 68.58 0)
 			(effects
 				(font
 					(size 1.8288 1.8288)
@@ -6585,7 +4657,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "06035C104JAT2A"
-			(at 198.12 82.55 0)
+			(at 212.09 68.58 0)
 			(effects
 				(font
 					(size 1.8288 1.8288)
@@ -6595,7 +4667,7 @@
 			)
 		)
 		(property "ALTIUM_VALUE" "0.1uF"
-			(at 200.152 75.946 0)
+			(at 214.122 61.976 0)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -6604,7 +4676,7 @@
 			)
 		)
 		(property "EXACT Part Number" "1-00004"
-			(at 195.072 78.486 0)
+			(at 209.042 64.516 0)
 			(effects
 				(font
 					(size 1.8288 1.8288)
@@ -6614,7 +4686,7 @@
 			)
 		)
 		(property "Package" "0603"
-			(at 195.072 78.486 0)
+			(at 209.042 64.516 0)
 			(effects
 				(font
 					(size 1.8288 1.8288)
@@ -6624,7 +4696,7 @@
 			)
 		)
 		(property "Voltage" "50V"
-			(at 193.04 78.74 0)
+			(at 207.01 64.77 0)
 			(effects
 				(font
 					(size 1.8288 1.8288)
@@ -6634,7 +4706,7 @@
 			)
 		)
 		(property "Dielectric" "X7R"
-			(at 194.31 78.74 0)
+			(at 208.28 64.77 0)
 			(effects
 				(font
 					(size 1.8288 1.8288)
@@ -6652,7 +4724,7 @@
 		(instances
 			(project "etc-em3-fixture"
 				(path "/157a64f5-4f62-4631-b01d-779d24d7ed20/b0d4a03a-f946-4c38-8a5a-bdd7f1ce4a16"
-					(reference "C503")
+					(reference "C502")
 					(unit 1)
 				)
 			)
@@ -6667,7 +4739,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ce909e37-248f-47d3-9e19-e25e10070565")
-		(property "Reference" "R512"
+		(property "Reference" "R507"
 			(at 223.774 132.08 0)
 			(effects
 				(font
@@ -6800,7 +4872,7 @@
 		(instances
 			(project "etc-em3-fixture"
 				(path "/157a64f5-4f62-4631-b01d-779d24d7ed20/b0d4a03a-f946-4c38-8a5a-bdd7f1ce4a16"
-					(reference "R512")
+					(reference "R507")
 					(unit 1)
 				)
 			)
@@ -6808,7 +4880,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 76.2 82.55 0)
+		(at 72.39 62.23 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6817,7 +4889,7 @@
 		(dnp no)
 		(uuid "dc566b16-e38e-4d0d-9aa3-c144d11c071d")
 		(property "Reference" "#PWR0501"
-			(at 76.2 88.9 0)
+			(at 72.39 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6826,7 +4898,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 76.2 86.106 0)
+			(at 72.39 65.786 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6834,7 +4906,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 76.2 82.55 0)
+			(at 72.39 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6843,7 +4915,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 76.2 82.55 0)
+			(at 72.39 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6852,7 +4924,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 76.2 82.55 0)
+			(at 72.39 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6873,436 +4945,8 @@
 		)
 	)
 	(symbol
-		(lib_id "EXACT_RES:RC0603FR-0747KL")
-		(at 139.7 53.34 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "dc6d62ff-eb9a-4bf9-bac4-b44d2f753d0e")
-		(property "Reference" "R504"
-			(at 145.034 50.292 90)
-			(effects
-				(font
-					(size 1.8288 1.8288)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "${VALUE}"
-			(at 135.89 53.34 0)
-			(effects
-				(font
-					(size 1.8288 1.8288)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "RES:RES_0603"
-			(at 139.7 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 139.7 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "RES SMD 47K OHM 1% 1/10W 0603"
-			(at 139.7 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor" "Digi-Key"
-			(at 138.938 64.008 0)
-			(effects
-				(font
-					(size 1.8288 1.8288)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Vendor Part Number" "311-47.0KHRCT-ND"
-			(at 138.938 64.008 0)
-			(effects
-				(font
-					(size 1.8288 1.8288)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Yageo"
-			(at 138.938 64.008 0)
-			(effects
-				(font
-					(size 1.8288 1.8288)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" "RC0603FR-0747KL"
-			(at 138.938 64.008 0)
-			(effects
-				(font
-					(size 1.8288 1.8288)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ALTIUM_VALUE" "47k"
-			(at 138.938 64.008 0)
-			(effects
-				(font
-					(size 1.8288 1.8288)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" "1%"
-			(at 143.002 64.008 0)
-			(effects
-				(font
-					(size 1.8288 1.8288)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "EXACT Part Number" "1-00048"
-			(at 143.002 64.008 0)
-			(effects
-				(font
-					(size 1.8288 1.8288)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "0603"
-			(at 143.002 64.008 0)
-			(effects
-				(font
-					(size 1.8288 1.8288)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "0082ed19-620d-47f9-a90e-667b81bf3f96")
-		)
-		(pin "1"
-			(uuid "e351248d-f901-43ef-bc14-f3b5d7ac83dd")
-		)
-		(instances
-			(project "etc-em3-fixture"
-				(path "/157a64f5-4f62-4631-b01d-779d24d7ed20/b0d4a03a-f946-4c38-8a5a-bdd7f1ce4a16"
-					(reference "R504")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VCC")
-		(at 80.01 48.26 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e0517fad-6490-42b9-8be9-053e1d743221")
-		(property "Reference" "#PWR0502"
-			(at 80.01 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCC"
-			(at 80.01 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 80.01 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 80.01 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 80.01 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "90e540cd-4819-4d8f-8f63-618cb15326a0")
-		)
-		(instances
-			(project "etc-em3-fixture"
-				(path "/157a64f5-4f62-4631-b01d-779d24d7ed20/b0d4a03a-f946-4c38-8a5a-bdd7f1ce4a16"
-					(reference "#PWR0502")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
-		(at 124.46 50.8 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e2354a43-6168-42d1-835f-b6d55c6fd06f")
-		(property "Reference" "#PWR0507"
-			(at 124.46 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 124.46 54.356 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 124.46 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 124.46 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 124.46 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "03ef4109-a6f4-4c2b-b199-62ef32c9fe7f")
-		)
-		(instances
-			(project "etc-em3-fixture"
-				(path "/157a64f5-4f62-4631-b01d-779d24d7ed20/b0d4a03a-f946-4c38-8a5a-bdd7f1ce4a16"
-					(reference "#PWR0507")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "EXACT_RES:RC0603FR-072K2L")
-		(at 74.93 55.88 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e5668d09-d5d9-428c-9395-67bc5e84965a")
-		(property "Reference" "R501"
-			(at 71.882 52.324 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "${VALUE}"
-			(at 76.2 57.7849 90)
-			(effects
-				(font
-					(size 1.8288 1.8288)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "RES:RES_0603"
-			(at 74.93 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 74.93 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "RES SMD 2.2K OHM 1% 1/10W 0603"
-			(at 74.93 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor" "Digi-Key"
-			(at 74.168 66.548 0)
-			(effects
-				(font
-					(size 1.8288 1.8288)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Vendor Part Number" "311-2.20KHRCT-ND"
-			(at 74.168 66.548 0)
-			(effects
-				(font
-					(size 1.8288 1.8288)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Yageo"
-			(at 74.168 66.548 0)
-			(effects
-				(font
-					(size 1.8288 1.8288)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" "RC0603FR-072K2L"
-			(at 74.168 66.548 0)
-			(effects
-				(font
-					(size 1.8288 1.8288)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ALTIUM_VALUE" "2.2k"
-			(at 74.676 59.436 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Tolerance" "1%"
-			(at 78.232 66.548 0)
-			(effects
-				(font
-					(size 1.8288 1.8288)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "EXACT Part Number" "1-00020"
-			(at 78.232 66.548 0)
-			(effects
-				(font
-					(size 1.8288 1.8288)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "0603"
-			(at 78.232 66.548 0)
-			(effects
-				(font
-					(size 1.8288 1.8288)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "2bd4e779-18c5-48ee-9c6a-090cf5bb6d14")
-		)
-		(pin "1"
-			(uuid "147805a3-25f2-4dc5-b281-bbbe04cc3bc0")
-		)
-		(instances
-			(project "etc-em3-fixture"
-				(path "/157a64f5-4f62-4631-b01d-779d24d7ed20/b0d4a03a-f946-4c38-8a5a-bdd7f1ce4a16"
-					(reference "R501")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 212.09 99.06 0)
+		(at 226.06 85.09 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7310,8 +4954,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e64a5951-0975-477e-bb33-808054b256f3")
-		(property "Reference" "#PWR0515"
-			(at 212.09 105.41 0)
+		(property "Reference" "#PWR0512"
+			(at 226.06 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7320,7 +4964,7 @@
 			)
 		)
 		(property "Value" "AGND"
-			(at 212.09 104.14 0)
+			(at 226.06 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7328,7 +4972,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 212.09 99.06 0)
+			(at 226.06 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7337,7 +4981,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 212.09 99.06 0)
+			(at 226.06 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7346,7 +4990,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 212.09 99.06 0)
+			(at 226.06 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7360,7 +5004,7 @@
 		(instances
 			(project "etc-em3-fixture"
 				(path "/157a64f5-4f62-4631-b01d-779d24d7ed20/b0d4a03a-f946-4c38-8a5a-bdd7f1ce4a16"
-					(reference "#PWR0515")
+					(reference "#PWR0512")
 					(unit 1)
 				)
 			)
@@ -7376,7 +5020,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e9787ec6-a4f7-4c9e-acb0-3d97a7e08513")
-		(property "Reference" "#PWR0516"
+		(property "Reference" "#PWR0510"
 			(at 218.44 138.43 0)
 			(effects
 				(font
@@ -7426,156 +5070,7 @@
 		(instances
 			(project "etc-em3-fixture"
 				(path "/157a64f5-4f62-4631-b01d-779d24d7ed20/b0d4a03a-f946-4c38-8a5a-bdd7f1ce4a16"
-					(reference "#PWR0516")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "EXACT_RES:RC0603FR-0747KL")
-		(at 143.51 50.8 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e9ce2783-75f0-426f-a590-8b69158c93ee")
-		(property "Reference" "R505"
-			(at 147.574 47.752 90)
-			(effects
-				(font
-					(size 1.8288 1.8288)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "${VALUE}"
-			(at 139.7 50.8 0)
-			(effects
-				(font
-					(size 1.8288 1.8288)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "RES:RES_0603"
-			(at 143.51 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 143.51 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "RES SMD 47K OHM 1% 1/10W 0603"
-			(at 143.51 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor" "Digi-Key"
-			(at 142.748 61.468 0)
-			(effects
-				(font
-					(size 1.8288 1.8288)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Vendor Part Number" "311-47.0KHRCT-ND"
-			(at 142.748 61.468 0)
-			(effects
-				(font
-					(size 1.8288 1.8288)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Yageo"
-			(at 142.748 61.468 0)
-			(effects
-				(font
-					(size 1.8288 1.8288)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" "RC0603FR-0747KL"
-			(at 142.748 61.468 0)
-			(effects
-				(font
-					(size 1.8288 1.8288)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ALTIUM_VALUE" "47k"
-			(at 142.748 61.468 0)
-			(effects
-				(font
-					(size 1.8288 1.8288)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" "1%"
-			(at 146.812 61.468 0)
-			(effects
-				(font
-					(size 1.8288 1.8288)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "EXACT Part Number" "1-00048"
-			(at 146.812 61.468 0)
-			(effects
-				(font
-					(size 1.8288 1.8288)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "0603"
-			(at 146.812 61.468 0)
-			(effects
-				(font
-					(size 1.8288 1.8288)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "1624c736-fb7f-47ca-a280-8f8ba26f45e5")
-		)
-		(pin "1"
-			(uuid "e6bcd5d0-74ee-4089-b652-3ee885a29f03")
-		)
-		(instances
-			(project "etc-em3-fixture"
-				(path "/157a64f5-4f62-4631-b01d-779d24d7ed20/b0d4a03a-f946-4c38-8a5a-bdd7f1ce4a16"
-					(reference "R505")
+					(reference "#PWR0510")
 					(unit 1)
 				)
 			)
@@ -7583,7 +5078,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 87.63 120.65 0)
+		(at 83.82 100.33 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7591,8 +5086,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ec1db83c-2a7a-48d7-b083-36b6aeb369e6")
-		(property "Reference" "#PWR0505"
-			(at 87.63 127 0)
+		(property "Reference" "#PWR0503"
+			(at 83.82 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7601,7 +5096,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 87.63 125.73 0)
+			(at 83.82 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7609,7 +5104,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 87.63 120.65 0)
+			(at 83.82 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7618,7 +5113,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 87.63 120.65 0)
+			(at 83.82 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7627,7 +5122,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 87.63 120.65 0)
+			(at 83.82 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7641,7 +5136,7 @@
 		(instances
 			(project "etc-em3-fixture"
 				(path "/157a64f5-4f62-4631-b01d-779d24d7ed20/b0d4a03a-f946-4c38-8a5a-bdd7f1ce4a16"
-					(reference "#PWR0505")
+					(reference "#PWR0503")
 					(unit 1)
 				)
 			)
@@ -7649,15 +5144,15 @@
 	)
 	(symbol
 		(lib_id "EXACT_RES:1-01147")
-		(at 194.31 86.36 0)
+		(at 208.28 72.39 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "f40e8413-6fdd-4f68-ac40-3a4868eb47bc")
-		(property "Reference" "R506"
-			(at 191.77 85.598 0)
+		(property "Reference" "R502"
+			(at 205.74 71.628 0)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -7665,7 +5160,7 @@
 			)
 		)
 		(property "Value" "${VALUE}"
-			(at 190.5 86.36 0)
+			(at 204.47 72.39 0)
 			(effects
 				(font
 					(size 1.8288 1.8288)
@@ -7675,7 +5170,7 @@
 			)
 		)
 		(property "Footprint" "RES:RES_1206"
-			(at 194.31 86.36 0)
+			(at 208.28 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7684,7 +5179,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 194.31 86.36 0)
+			(at 208.28 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7693,7 +5188,7 @@
 			)
 		)
 		(property "Description" "RES SMD 27K OHM 0.05% 1/10W 0603"
-			(at 194.31 86.36 0)
+			(at 208.28 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7702,7 +5197,7 @@
 			)
 		)
 		(property "Vendor" "Digikey"
-			(at 183.642 85.598 0)
+			(at 197.612 71.628 0)
 			(effects
 				(font
 					(size 1.8288 1.8288)
@@ -7712,7 +5207,7 @@
 			)
 		)
 		(property "Vendor Part Number" "P27KBETR-ND"
-			(at 183.642 85.598 0)
+			(at 197.612 71.628 0)
 			(effects
 				(font
 					(size 1.8288 1.8288)
@@ -7722,7 +5217,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 183.642 85.598 0)
+			(at 197.612 71.628 0)
 			(effects
 				(font
 					(size 1.8288 1.8288)
@@ -7732,7 +5227,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "ERA-3ARW273V"
-			(at 183.642 85.598 0)
+			(at 197.612 71.628 0)
 			(effects
 				(font
 					(size 1.8288 1.8288)
@@ -7742,7 +5237,7 @@
 			)
 		)
 		(property "ALTIUM_VALUE" "27K"
-			(at 196.088 85.852 0)
+			(at 210.058 71.882 0)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -7751,7 +5246,7 @@
 			)
 		)
 		(property "Tolerance" "0.05%"
-			(at 200.66 86.106 0)
+			(at 214.63 72.136 0)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -7760,7 +5255,7 @@
 			)
 		)
 		(property "EXACT Part Number" "1-01147"
-			(at 183.642 89.662 0)
+			(at 197.612 75.692 0)
 			(effects
 				(font
 					(size 1.8288 1.8288)
@@ -7770,7 +5265,7 @@
 			)
 		)
 		(property "Package" "SMD"
-			(at 183.642 89.662 0)
+			(at 197.612 75.692 0)
 			(effects
 				(font
 					(size 1.8288 1.8288)
@@ -7788,7 +5283,7 @@
 		(instances
 			(project "etc-em3-fixture"
 				(path "/157a64f5-4f62-4631-b01d-779d24d7ed20/b0d4a03a-f946-4c38-8a5a-bdd7f1ce4a16"
-					(reference "R506")
+					(reference "R502")
 					(unit 1)
 				)
 			)
@@ -7796,7 +5291,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 118.11 120.65 0)
+		(at 114.3 100.33 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7804,8 +5299,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f7b6ae91-f7ba-4b29-a8a0-5b9dd12ec73a")
-		(property "Reference" "#PWR0506"
-			(at 118.11 127 0)
+		(property "Reference" "#PWR0504"
+			(at 114.3 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7814,7 +5309,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 118.11 125.73 0)
+			(at 114.3 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7822,7 +5317,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 118.11 120.65 0)
+			(at 114.3 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7831,7 +5326,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 118.11 120.65 0)
+			(at 114.3 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7840,7 +5335,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 118.11 120.65 0)
+			(at 114.3 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7854,7 +5349,7 @@
 		(instances
 			(project "etc-em3-fixture"
 				(path "/157a64f5-4f62-4631-b01d-779d24d7ed20/b0d4a03a-f946-4c38-8a5a-bdd7f1ce4a16"
-					(reference "#PWR0506")
+					(reference "#PWR0504")
 					(unit 1)
 				)
 			)
@@ -7870,7 +5365,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f803c3f5-d5a2-456f-9066-e6db824f2412")
-		(property "Reference" "#PWR0513"
+		(property "Reference" "#PWR0507"
 			(at 201.93 138.43 0)
 			(effects
 				(font
@@ -7920,7 +5415,7 @@
 		(instances
 			(project "etc-em3-fixture"
 				(path "/157a64f5-4f62-4631-b01d-779d24d7ed20/b0d4a03a-f946-4c38-8a5a-bdd7f1ce4a16"
-					(reference "#PWR0513")
+					(reference "#PWR0507")
 					(unit 1)
 				)
 			)
