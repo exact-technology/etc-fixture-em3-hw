@@ -5019,10 +5019,10 @@
 		(uuid "5109c19a-97b5-4256-b43f-a9c696b28b0d")
 	)
 	(junction
-		(at 83.82 49.53)
+		(at 77.47 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "5286d4d9-20ee-4455-a0b4-f003db29d9ec")
+		(uuid "51e02074-38e7-4323-9fa5-90c42a3fb93c")
 	)
 	(junction
 		(at 260.35 48.26)
@@ -5256,16 +5256,6 @@
 		)
 		(uuid "07cea8d8-6832-4adc-a107-0c80e98e270e")
 	)
-	(wire
-		(pts
-			(xy 83.82 49.53) (xy 87.63 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0c72ccc7-b3a4-4090-9241-b8e49157e83b")
-	)
 	(polyline
 		(pts
 			(xy 138.43 162.56) (xy 276.098 162.814)
@@ -5339,6 +5329,26 @@
 	)
 	(wire
 		(pts
+			(xy 86.36 49.53) (xy 87.63 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12e4dd4b-016f-49b3-ac44-6b56fe9d5c02")
+	)
+	(wire
+		(pts
+			(xy 77.47 49.53) (xy 78.74 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12f4c159-fd7e-4e2c-b6f3-709fa70047db")
+	)
+	(wire
+		(pts
 			(xy 252.73 129.54) (xy 252.73 127)
 		)
 		(stroke
@@ -5380,7 +5390,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 45.72) (xy 83.82 49.53)
+			(xy 77.47 45.72) (xy 77.47 49.53)
 		)
 		(stroke
 			(width 0)
@@ -5400,7 +5410,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 49.53) (xy 83.82 49.53)
+			(xy 49.53 49.53) (xy 77.47 49.53)
 		)
 		(stroke
 			(width 0)
@@ -6153,6 +6163,16 @@
 	)
 	(wire
 		(pts
+			(xy 77.47 45.72) (xy 83.82 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93496732-10d0-4588-969e-6af1949873b2")
+	)
+	(wire
+		(pts
 			(xy 95.25 72.39) (xy 101.6 72.39)
 		)
 		(stroke
@@ -6585,7 +6605,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 49.53) (xy 104.14 49.53)
+			(xy 95.25 49.53) (xy 96.52 49.53)
 		)
 		(stroke
 			(width 0)
@@ -8034,6 +8054,92 @@
 			(project "etc-em3-fixture"
 				(path "/157a64f5-4f62-4631-b01d-779d24d7ed20/792edb8d-6e79-40ec-8a9f-e5a94d41d615"
 					(reference "#PWR0311")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N5408")
+		(at 82.55 49.53 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1c5b4aa4-5fcf-425a-995e-f6fd2793aca4")
+		(property "Reference" "D305"
+			(at 81.534 47.244 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N5408"
+			(at 74.93 51.054 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P3.81mm_Vertical_KathodeUp"
+			(at 82.55 45.085 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/88516/1n5400.pdf"
+			(at 82.55 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1000V 3A General Purpose Rectifier Diode, DO-201AD"
+			(at 82.55 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 82.55 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 82.55 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2707fe3b-4d20-4aa4-98db-dd8b8d37f229")
+		)
+		(pin "1"
+			(uuid "f2fc83f5-51a0-4b51-aa9d-6a798bd3b9b6")
+		)
+		(instances
+			(project "etc-em3-fixture"
+				(path "/157a64f5-4f62-4631-b01d-779d24d7ed20/792edb8d-6e79-40ec-8a9f-e5a94d41d615"
+					(reference "D305")
 					(unit 1)
 				)
 			)
@@ -11598,6 +11704,92 @@
 			(project ""
 				(path "/157a64f5-4f62-4631-b01d-779d24d7ed20/792edb8d-6e79-40ec-8a9f-e5a94d41d615"
 					(reference "D302")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N5408")
+		(at 100.33 49.53 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8c183936-9669-4283-a1a7-714eb89d37a7")
+		(property "Reference" "D306"
+			(at 99.568 47.244 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N5408"
+			(at 92.71 51.054 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P3.81mm_Vertical_KathodeUp"
+			(at 100.33 45.085 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/88516/1n5400.pdf"
+			(at 100.33 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1000V 3A General Purpose Rectifier Diode, DO-201AD"
+			(at 100.33 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 100.33 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 100.33 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7b157901-4dfa-475f-8ccd-10bb04971b15")
+		)
+		(pin "1"
+			(uuid "ca5cea16-90e0-4b33-b1e3-5096517eccca")
+		)
+		(instances
+			(project "etc-em3-fixture"
+				(path "/157a64f5-4f62-4631-b01d-779d24d7ed20/792edb8d-6e79-40ec-8a9f-e5a94d41d615"
+					(reference "D306")
 					(unit 1)
 				)
 			)
